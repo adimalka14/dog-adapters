@@ -1,2169 +1,2183 @@
 [
     {
-        "id":"gar5sVUpYqSteweh7t1I",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":15,
-        "vaccines":1,
-        "behave":[
+        "id": "af9748dc-1047-4946-a749-6b99c33703f1",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 15,
+        "vaccines": 1,
+        "behave": [
             "Energetic",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/HChun8fU41.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/HChun8fU41.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"NK9Ysj0EPTy7VjQVI3TP",
-        "race":"Husky",
-        "gender":"Female",
-        "age":15,
-        "vaccines":5,
-        "behave":[
+        "id": "b1c58973-d1e4-4a96-a604-61c66c84b853",
+        "race": "Husky",
+        "gender": "female",
+        "age": 15,
+        "vaccines": 5,
+        "behave": [
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/cQGKeNUtKm.jpg",
-        "name":"Daisy",
-        "status":"Pending"
+        "image": "https://random.dog/cQGKeNUtKm.jpg",
+        "name": "Daisy",
+        "status": "pending"
     },
     {
-        "id":"ypVnfZMHapGUjPQpRzjE",
-        "race":"Husky",
-        "gender":"Male",
-        "age":5,
-        "vaccines":0,
-        "behave":[
+        "id": "c37f574c-7254-4de0-90d3-b99ee02d99d0",
+        "race": "Husky",
+        "gender": "male",
+        "age": 5,
+        "vaccines": 0,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/7ZqJ71nfu8.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/7ZqJ71nfu8.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"zK4InHpBT5GoBd68e79F",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":15,
-        "vaccines":4,
-        "behave":[
+        "id": "21c85b0b-5ad1-44e1-9141-f7fbcdf40b2e",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 15,
+        "vaccines": 4,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/IKMgvcBmKo.jpg",
-        "name":"Molly",
-        "status":"Adopted"
+        "image": "https://random.dog/IKMgvcBmKo.jpg",
+        "name": "Molly",
+        "status": "adopted"
     },
     {
-        "id":"0GhwLHWyzgofYRRLbdnJ",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":13,
-        "vaccines":2,
-        "behave":[
+        "id": "10a5b3f9-067c-4333-ab7b-02f324d0f2b4",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 2,
+        "behave": [
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/n0LMUDpD93.jpg",
-        "name":"Molly",
-        "status":"Available"
+        "image": "https://random.dog/n0LMUDpD93.jpg",
+        "name": "Molly",
+        "status": "available"
     },
     {
-        "id":"yEQJEzS6v9z6XRa9yyev",
-        "race":"Dachshund",
-        "gender":"Female",
-        "age":15,
-        "vaccines":4,
-        "behave":[
+        "id": "e2dd6f55-4f50-4af6-885c-c14643ef5af8",
+        "race": "Dachshund",
+        "gender": "female",
+        "age": 15,
+        "vaccines": 4,
+        "behave": [
             "Friendly",
             "Loyal",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/dmOuQVqHkD.jpg",
-        "name":"Milo",
-        "status":"Adopted"
+        "image": "https://random.dog/dmOuQVqHkD.jpg",
+        "name": "Milo",
+        "status": "adopted"
     },
     {
-        "id":"uZ5JsZOJV20dGhEmQWTK",
-        "race":"Husky",
-        "gender":"Female",
-        "age":12,
-        "vaccines":1,
-        "behave":[
+        "id": "53c1f238-1727-4258-9478-d0dde7be5e5a",
+        "race": "Husky",
+        "gender": "female",
+        "age": 12,
+        "vaccines": 1,
+        "behave": [
             "Shy",
             "Friendly",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/ZP2BoEIO8P.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/ZP2BoEIO8P.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"FRLmSOtXmXHgysO30G3s",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":8,
-        "vaccines":1,
-        "behave":[
+        "id": "5ab8ea9b-a4fc-4f16-8282-124c0fbd0622",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 1,
+        "behave": [
             "Aggressive",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/TckYnnGi6J.jpg",
-        "name":"Buddy",
-        "status":"Available"
+        "image": "https://random.dog/TckYnnGi6J.jpg",
+        "name": "Buddy",
+        "status": "available"
     },
     {
-        "id":"yNiAAxjF7qWJVv3E4XRz",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":14,
-        "vaccines":5,
-        "behave":[
+        "id": "22d96899-1231-4cd6-9829-1c834f951996",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 5,
+        "behave": [
             "Shy",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/zNoaxCkH3o.jpg",
-        "name":"Cooper",
-        "status":"Available"
+        "image": "https://random.dog/zNoaxCkH3o.jpg",
+        "name": "Cooper",
+        "status": "available"
     },
     {
-        "id":"QEAoMuVbHP73QNkQ2Fb8",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":15,
-        "vaccines":5,
-        "behave":[
+        "id": "e2b6acea-9e13-4c69-ae55-90ea59f905af",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 15,
+        "vaccines": 5,
+        "behave": [
             "Playful",
             "Curious",
             "Shy",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/4bPROmii04.jpg",
-        "name":"Bella",
-        "status":"Adopted"
+        "image": "https://random.dog/4bPROmii04.jpg",
+        "name": "Bella",
+        "status": "adopted"
     },
     {
-        "id":"vObpHVLLGKVAHTB7PqHv",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":13,
-        "vaccines":5,
-        "behave":[
+        "id": "133fb2b8-6a2c-478e-9e6d-972e20c47a36",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 5,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/qqp168ODn7.jpg",
-        "name":"Cooper",
-        "status":"Available"
+        "image": "https://random.dog/qqp168ODn7.jpg",
+        "name": "Cooper",
+        "status": "available"
     },
     {
-        "id":"SHxN4EVdcuMpjnpOoJL9",
-        "race":"German Shepherd",
-        "gender":"Female",
-        "age":9,
-        "vaccines":0,
-        "behave":[
+        "id": "35040848-b439-49ad-bc23-c95aba8e4f9c",
+        "race": "German Shepherd",
+        "gender": "female",
+        "age": 9,
+        "vaccines": 0,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/ljCUxdIEBz.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/ljCUxdIEBz.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"kQKasnlCu9CW4P356Svc",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":2,
-        "vaccines":2,
-        "behave":[
+        "id": "25ed1e74-9bef-4b67-b740-63d209c8a44a",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 2,
+        "vaccines": 2,
+        "behave": [
             "Energetic",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/RmXbTDrpl5.jpg",
-        "name":"Milo",
-        "status":"Available"
+        "image": "https://random.dog/RmXbTDrpl5.jpg",
+        "name": "Milo",
+        "status": "available"
     },
     {
-        "id":"xEpNnXkVXMR6Wd6tyjfl",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":7,
-        "vaccines":0,
-        "behave":[
+        "id": "38e328cb-3ae9-462b-af21-6be6c67cbbf8",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 7,
+        "vaccines": 0,
+        "behave": [
             "Playful",
             "Friendly",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/OuPmwhgrj8.jpg",
-        "name":"Milo",
-        "status":"Pending"
+        "image": "https://random.dog/OuPmwhgrj8.jpg",
+        "name": "Milo",
+        "status": "pending"
     },
     {
-        "id":"nxhrYmGX36VvZhk9VzaE",
-        "race":"Husky",
-        "gender":"Female",
-        "age":9,
-        "vaccines":4,
-        "behave":[
+        "id": "0abcec67-0b58-4ce3-a6ce-390457663277",
+        "race": "Husky",
+        "gender": "female",
+        "age": 9,
+        "vaccines": 4,
+        "behave": [
             "Loyal",
             "Nervous",
             "Calm",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/X9446LJw4o.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/X9446LJw4o.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"xTsFel5V20rzUqy3WsBM",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":2,
-        "vaccines":4,
-        "behave":[
+        "id": "32fff156-0dfb-45c1-8678-5126b331e7f5",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 2,
+        "vaccines": 4,
+        "behave": [
             "Protective",
             "Energetic",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/YanebW4n34.jpg",
-        "name":"Buddy",
-        "status":"Adopted"
+        "image": "https://random.dog/YanebW4n34.jpg",
+        "name": "Buddy",
+        "status": "adopted"
     },
     {
-        "id":"3fuW6hflmAaNU2lAtQbI",
-        "race":"Shih Tzu",
-        "gender":"Male",
-        "age":10,
-        "vaccines":1,
-        "behave":[
+        "id": "14b89b8e-0a75-4dab-bef7-424fc36ee2f8",
+        "race": "Shih Tzu",
+        "gender": "male",
+        "age": 10,
+        "vaccines": 1,
+        "behave": [
             "Playful",
             "Friendly",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/vbwFXE66z9.jpg",
-        "name":"Buddy",
-        "status":"Adopted"
+        "image": "https://random.dog/vbwFXE66z9.jpg",
+        "name": "Buddy",
+        "status": "adopted"
     },
     {
-        "id":"Lx9FtRxM2laTLl3L5rPF",
-        "race":"Husky",
-        "gender":"Female",
-        "age":5,
-        "vaccines":5,
-        "behave":[
+        "id": "eb03ef06-d97b-4ac8-8f38-d4ea76283eec",
+        "race": "Husky",
+        "gender": "female",
+        "age": 5,
+        "vaccines": 5,
+        "behave": [
             "Friendly",
             "Playful",
             "Calm",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/76WU5DdPbr.jpg",
-        "name":"Charlie",
-        "status":"Fostered"
+        "image": "https://random.dog/76WU5DdPbr.jpg",
+        "name": "Charlie",
+        "status": "fostered"
     },
     {
-        "id":"2va7KqfV012tGBcZ9ZeM",
-        "race":"Husky",
-        "gender":"Female",
-        "age":5,
-        "vaccines":0,
-        "behave":[
+        "id": "98c30f58-13a4-4e4e-9d58-ec27ce59d41e",
+        "race": "Husky",
+        "gender": "female",
+        "age": 5,
+        "vaccines": 0,
+        "behave": [
             "Aggressive",
             "Playful",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/bVCAN2iSzb.jpg",
-        "name":"Charlie",
-        "status":"Adopted"
+        "image": "https://random.dog/bVCAN2iSzb.jpg",
+        "name": "Charlie",
+        "status": "adopted"
     },
     {
-        "id":"qnj6CJA2SSSUZfaFQCu6",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":7,
-        "vaccines":3,
-        "behave":[
+        "id": "1a7f1beb-a141-4368-91a7-1bf08cb9ad65",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 3,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/0kiVLyeb4L.jpg",
-        "name":"Max",
-        "status":"Fostered"
+        "image": "https://random.dog/0kiVLyeb4L.jpg",
+        "name": "Max",
+        "status": "fostered"
     },
     {
-        "id":"4IWiNBK9lLVOaNHPdoT2",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":1,
-        "vaccines":1,
-        "behave":[
+        "id": "e462e628-0285-4967-8ba7-62ee1ef74e9c",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 1,
+        "vaccines": 1,
+        "behave": [
             "Curious",
             "Energetic",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/XM6Qoj37gN.jpg",
-        "name":"Buddy",
-        "status":"Available"
+        "image": "https://random.dog/XM6Qoj37gN.jpg",
+        "name": "Buddy",
+        "status": "available"
     },
     {
-        "id":"HHVg1B4pxpoCeTPeeOZn",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":8,
-        "vaccines":2,
-        "behave":[
+        "id": "5af5cdc1-5f93-4201-bde4-6dac035900e9",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 8,
+        "vaccines": 2,
+        "behave": [
             "Curious",
             "Energetic",
             "Playful",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/97pNZYolDt.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/97pNZYolDt.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"BNHg22y9VIfzLwrLWcAs",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":10,
-        "vaccines":0,
-        "behave":[
+        "id": "c4196bf3-c775-4953-a698-5fa942a1b542",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 10,
+        "vaccines": 0,
+        "behave": [
             "Calm",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/cYdgA97r4x.jpg",
-        "name":"Lucy",
-        "status":"Pending"
+        "image": "https://random.dog/cYdgA97r4x.jpg",
+        "name": "Lucy",
+        "status": "pending"
     },
     {
-        "id":"1oBCICHzW7q1lBKB9iql",
-        "race":"Husky",
-        "gender":"Female",
-        "age":3,
-        "vaccines":1,
-        "behave":[
+        "id": "7d662927-f315-4f4e-a601-b4a039738bf4",
+        "race": "Husky",
+        "gender": "female",
+        "age": 3,
+        "vaccines": 1,
+        "behave": [
             "Playful",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/asnmsQkgfC.jpg",
-        "name":"Milo",
-        "status":"Available"
+        "image": "https://random.dog/asnmsQkgfC.jpg",
+        "name": "Milo",
+        "status": "available"
     },
     {
-        "id":"8yQ8w7lFxVNVfD5dS4Xk",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":6,
-        "vaccines":1,
-        "behave":[
+        "id": "f547f6b8-6a0e-40f7-af97-c75dae2f5f05",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 6,
+        "vaccines": 1,
+        "behave": [
             "Nervous",
             "Loyal",
             "Curious",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/lFBSxBGdHt.jpg",
-        "name":"Daisy",
-        "status":"Available"
+        "image": "https://random.dog/lFBSxBGdHt.jpg",
+        "name": "Daisy",
+        "status": "available"
     },
     {
-        "id":"X7pjNKY9HSHwc6IIJyG9",
-        "race":"Bulldog",
-        "gender":"Female",
-        "age":7,
-        "vaccines":5,
-        "behave":[
+        "id": "00eb4b73-4e35-4924-8db0-d1217a757616",
+        "race": "Bulldog",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 5,
+        "behave": [
             "Calm",
             "Playful",
             "Aggressive",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/LIR7tHJrHi.jpg",
-        "name":"Milo",
-        "status":"Adopted"
+        "image": "https://random.dog/LIR7tHJrHi.jpg",
+        "name": "Milo",
+        "status": "adopted"
     },
     {
-        "id":"CkbI9ueJeCiCewyshBkm",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":9,
-        "vaccines":3,
-        "behave":[
+        "id": "f688052d-3aca-40ad-960f-e623d3fbf23b",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 9,
+        "vaccines": 3,
+        "behave": [
             "Loyal",
             "Curious",
             "Protective",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/mvJkKXReUd.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/mvJkKXReUd.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"PLgXMI2Uu1DbfNreCeLU",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":8,
-        "vaccines":1,
-        "behave":[
+        "id": "53dbf715-d02b-42fe-9282-1d09e86c9dab",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 8,
+        "vaccines": 1,
+        "behave": [
             "Playful",
             "Curious",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/DokbQVtpiR.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/DokbQVtpiR.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"spmfP5OLP8zfW2LIBUro",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":10,
-        "vaccines":2,
-        "behave":[
+        "id": "fa6b6a21-c8a8-49f1-b976-fc3ed3ffd72f",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 10,
+        "vaccines": 2,
+        "behave": [
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/j83k5f5UzB.jpg",
-        "name":"Molly",
-        "status":"Adopted"
+        "image": "https://random.dog/j83k5f5UzB.jpg",
+        "name": "Molly",
+        "status": "adopted"
     },
     {
-        "id":"YoMwSXf9IS8LDtZiO3mL",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":11,
-        "vaccines":1,
-        "behave":[
+        "id": "25f5e41d-9423-4e8a-99b3-3d8008ad53d8",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 11,
+        "vaccines": 1,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/acfTsBajED.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/acfTsBajED.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"6RnycJar3m0YDByFWnMm",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":3,
-        "vaccines":2,
-        "behave":[
+        "id": "dfcfab62-25a0-486c-8ca3-0072205f879b",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 3,
+        "vaccines": 2,
+        "behave": [
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/4NyGfNwtmb.jpg",
-        "name":"Milo",
-        "status":"Pending"
+        "image": "https://random.dog/4NyGfNwtmb.jpg",
+        "name": "Milo",
+        "status": "pending"
     },
     {
-        "id":"ynmChWQmEsFO3MmbSRiP",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "05158f87-9bdf-436f-ad82-a1a17587d053",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Nervous",
             "Playful",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/BMmwMW9UxN.jpg",
-        "name":"Molly",
-        "status":"Available"
+        "image": "https://random.dog/BMmwMW9UxN.jpg",
+        "name": "Molly",
+        "status": "available"
     },
     {
-        "id":"duh5z6VNMrnVxlthYvev",
-        "race":"Shih Tzu",
-        "gender":"Male",
-        "age":6,
-        "vaccines":3,
-        "behave":[
+        "id": "e8bda5da-1240-433c-9dbc-974754edabba",
+        "race": "Shih Tzu",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 3,
+        "behave": [
             "Aggressive",
             "Shy",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/cHheXS95uS.jpg",
-        "name":"Bella",
-        "status":"Fostered"
+        "image": "https://random.dog/cHheXS95uS.jpg",
+        "name": "Bella",
+        "status": "fostered"
     },
     {
-        "id":"0bYTQGDcE3S6jKEFGkj4",
-        "race":"Dachshund",
-        "gender":"Female",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "b09f9264-7bf0-414f-94d4-9357bf60ea2a",
+        "race": "Dachshund",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Protective",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/73ajqadSnV.jpg",
-        "name":"Bella",
-        "status":"Fostered"
+        "image": "https://random.dog/73ajqadSnV.jpg",
+        "name": "Bella",
+        "status": "fostered"
     },
     {
-        "id":"dM0zk3FSfv1zYcPHAApL",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":7,
-        "vaccines":1,
-        "behave":[
+        "id": "37545e29-918b-4b9d-bed0-c3ddf78e4ee4",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 1,
+        "behave": [
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/YSvYuLtyLV.jpg",
-        "name":"Cooper",
-        "status":"Adopted"
+        "image": "https://random.dog/YSvYuLtyLV.jpg",
+        "name": "Cooper",
+        "status": "adopted"
     },
     {
-        "id":"Ji9lbQM8II0CEoai6leu",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":13,
-        "vaccines":0,
-        "behave":[
+        "id": "f6006c79-4dbb-4560-8bf2-298f157abf18",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 0,
+        "behave": [
             "Shy",
             "Curious",
             "Calm",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/TlPRKy7ln3.jpg",
-        "name":"Max",
-        "status":"Available"
+        "image": "https://random.dog/TlPRKy7ln3.jpg",
+        "name": "Max",
+        "status": "available"
     },
     {
-        "id":"TbNdDGS4QIMOdjmL9Gkx",
-        "race":"Husky",
-        "gender":"Female",
-        "age":13,
-        "vaccines":1,
-        "behave":[
+        "id": "b8898299-4869-44fb-ba48-1b58e185eb0d",
+        "race": "Husky",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 1,
+        "behave": [
             "Friendly",
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/VRnG1PiFnE.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/VRnG1PiFnE.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"Rp7takeX6fYBQiytbruf",
-        "race":"Shih Tzu",
-        "gender":"Male",
-        "age":7,
-        "vaccines":0,
-        "behave":[
+        "id": "b8e95b2c-81f3-421e-97f1-220df0c0fce7",
+        "race": "Shih Tzu",
+        "gender": "male",
+        "age": 7,
+        "vaccines": 0,
+        "behave": [
             "Energetic",
             "Curious",
             "Protective",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/VLeEURE7sV.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/VLeEURE7sV.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"OXCeq5ngkN0dufBR2cdG",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":2,
-        "vaccines":4,
-        "behave":[
+        "id": "4e4bb7a3-9ac4-49e6-ace8-c71097b4c604",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 2,
+        "vaccines": 4,
+        "behave": [
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/mXcdT0Q8r5.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/mXcdT0Q8r5.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"32siXj6M5jsBBUDEvdFk",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":7,
-        "vaccines":0,
-        "behave":[
+        "id": "447ca14c-bde2-470c-a2f1-d5b9d914b2e5",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 0,
+        "behave": [
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/VdUPLauTeI.jpg",
-        "name":"Milo",
-        "status":"Fostered"
+        "image": "https://random.dog/VdUPLauTeI.jpg",
+        "name": "Milo",
+        "status": "fostered"
     },
     {
-        "id":"MRcCcegLEJDAU9JgWsxS",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":6,
-        "vaccines":2,
-        "behave":[
+        "id": "8220ae67-fa0c-406a-bc3b-c7a3b4246e8b",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 6,
+        "vaccines": 2,
+        "behave": [
             "Nervous",
             "Aggressive",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/cxXunTsTin.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/cxXunTsTin.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"7LJiiHEY7KEZJUcH7YIo",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":6,
-        "vaccines":0,
-        "behave":[
+        "id": "c6c16ca7-3349-4f12-8f32-5ea0630415a8",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 0,
+        "behave": [
             "Loyal",
             "Playful",
             "Nervous",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/pp3gGB3yHE.jpg",
-        "name":"Bella",
-        "status":"Available"
+        "image": "https://random.dog/pp3gGB3yHE.jpg",
+        "name": "Bella",
+        "status": "available"
     },
     {
-        "id":"uRC2a2nev9OItAXaKMJ5",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":6,
-        "vaccines":5,
-        "behave":[
+        "id": "9cb4900a-4796-40b0-adf3-97e27bfeee4b",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 5,
+        "behave": [
             "Friendly",
             "Nervous",
             "Curious",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/mkyAgJbDUu.jpg",
-        "name":"Bella",
-        "status":"Adopted"
+        "image": "https://random.dog/mkyAgJbDUu.jpg",
+        "name": "Bella",
+        "status": "adopted"
     },
     {
-        "id":"PmuX2K8bxdZPZHFoQ2Dg",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":13,
-        "vaccines":5,
-        "behave":[
+        "id": "87567150-0d6c-40b0-9f84-4b7465ea15ec",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 5,
+        "behave": [
             "Playful",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/byuvXCtTY8.jpg",
-        "name":"Bella",
-        "status":"Adopted"
+        "image": "https://random.dog/byuvXCtTY8.jpg",
+        "name": "Bella",
+        "status": "adopted"
     },
     {
-        "id":"JHOkDLZ1bS4sMVYfOLw6",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":10,
-        "vaccines":4,
-        "behave":[
+        "id": "5cd2a1ca-7357-4aba-8658-7253df81bfc2",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 10,
+        "vaccines": 4,
+        "behave": [
             "Curious",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/8qxeJnp4uN.jpg",
-        "name":"Daisy",
-        "status":"Pending"
+        "image": "https://random.dog/8qxeJnp4uN.jpg",
+        "name": "Daisy",
+        "status": "pending"
     },
     {
-        "id":"OzbzLNOcrwjK8NU5wO2p",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":3,
-        "vaccines":3,
-        "behave":[
+        "id": "c495fc52-5520-4ba8-aba2-a5565053309e",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 3,
+        "vaccines": 3,
+        "behave": [
             "Friendly",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/LzyhJmRGo4.jpg",
-        "name":"Milo",
-        "status":"Adopted"
+        "image": "https://random.dog/LzyhJmRGo4.jpg",
+        "name": "Milo",
+        "status": "adopted"
     },
     {
-        "id":"GW5LuDvxbHwuQD10kTFp",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":1,
-        "vaccines":1,
-        "behave":[
+        "id": "d9573886-3484-4ad7-b8fa-21d4e193cd20",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 1,
+        "vaccines": 1,
+        "behave": [
             "Shy",
             "Loyal",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/7wLOscwyW5.jpg",
-        "name":"Bailey",
-        "status":"Fostered"
+        "image": "https://random.dog/7wLOscwyW5.jpg",
+        "name": "Bailey",
+        "status": "fostered"
     },
     {
-        "id":"2Gqwg5XkzWw2PUgES43n",
-        "race":"Labrador",
-        "gender":"Female",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "9a7b1071-da77-43be-9c10-da0362b5ea8d",
+        "race": "Labrador",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/kjHostHlUy.jpg",
-        "name":"Milo",
-        "status":"Fostered"
+        "image": "https://random.dog/kjHostHlUy.jpg",
+        "name": "Milo",
+        "status": "fostered"
     },
     {
-        "id":"XhJGZs751vuoa6rF5qqq",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":1,
-        "vaccines":0,
-        "behave":[
+        "id": "c11db459-7295-4789-9c58-c406768a0e67",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 1,
+        "vaccines": 0,
+        "behave": [
             "Loyal",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/GPaT3QKZna.jpg",
-        "name":"Buddy",
-        "status":"Available"
+        "image": "https://random.dog/GPaT3QKZna.jpg",
+        "name": "Buddy",
+        "status": "available"
     },
     {
-        "id":"VLaNWULmBlfyZBbCysm7",
-        "race":"Dachshund",
-        "gender":"Female",
-        "age":5,
-        "vaccines":5,
-        "behave":[
+        "id": "4cbf0135-b795-4775-bad1-be67a8b9ee05",
+        "race": "Dachshund",
+        "gender": "female",
+        "age": 5,
+        "vaccines": 5,
+        "behave": [
             "Nervous",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/vbH0JcZ9Hi.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/vbH0JcZ9Hi.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"tyQfzrvNy9e0AfvNoCpW",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":2,
-        "vaccines":0,
-        "behave":[
+        "id": "b15d368a-5b4e-4ea8-94e0-a66e40c60dc0",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 2,
+        "vaccines": 0,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/CvuL0QZPDw.jpg",
-        "name":"Milo",
-        "status":"Adopted"
+        "image": "https://random.dog/CvuL0QZPDw.jpg",
+        "name": "Milo",
+        "status": "adopted"
     },
     {
-        "id":"CpXNDBb5GYyKzgSUJdkZ",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":8,
-        "vaccines":4,
-        "behave":[
+        "id": "64929c4c-942e-4fe6-8c53-471d3018a3ed",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 4,
+        "behave": [
             "Calm",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/FjQoKOQzrW.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/FjQoKOQzrW.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"rQ7qtMZsY3n3i5xKppqm",
-        "race":"Dachshund",
-        "gender":"Male",
-        "age":12,
-        "vaccines":1,
-        "behave":[
+        "id": "c2d788ca-bd78-467c-9a77-db3432dfbea6",
+        "race": "Dachshund",
+        "gender": "male",
+        "age": 12,
+        "vaccines": 1,
+        "behave": [
             "Curious",
             "Calm",
             "Loyal",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/n53lbvLIUs.jpg",
-        "name":"Max",
-        "status":"Adopted"
+        "image": "https://random.dog/n53lbvLIUs.jpg",
+        "name": "Max",
+        "status": "adopted"
     },
     {
-        "id":"pX0Hlgm4p6Ww7LARdmGo",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":15,
-        "vaccines":0,
-        "behave":[
+        "id": "568ee2d7-7f78-46ac-996b-45c28c13fcf5",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 15,
+        "vaccines": 0,
+        "behave": [
             "Friendly",
             "Loyal",
             "Calm",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/wJE03zfML8.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/wJE03zfML8.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"JEe2lWKoGjulhNaaDhon",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":2,
-        "vaccines":5,
-        "behave":[
+        "id": "a04b2ffa-380b-49f7-ba70-2eb36f83f298",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 2,
+        "vaccines": 5,
+        "behave": [
             "Friendly",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/0Z3iMHJ4pm.jpg",
-        "name":"Molly",
-        "status":"Available"
+        "image": "https://random.dog/0Z3iMHJ4pm.jpg",
+        "name": "Molly",
+        "status": "available"
     },
     {
-        "id":"z6kB8jHCnuA8t5vGyBi3",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":14,
-        "vaccines":4,
-        "behave":[
+        "id": "cd17b952-3d77-45d8-a7a0-f02dac55fb9b",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 14,
+        "vaccines": 4,
+        "behave": [
             "Calm",
             "Aggressive",
             "Loyal",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/ZlvCfbhqG1.jpg",
-        "name":"Milo",
-        "status":"Adopted"
+        "image": "https://random.dog/ZlvCfbhqG1.jpg",
+        "name": "Milo",
+        "status": "adopted"
     },
     {
-        "id":"GoE1GFArocpQRVpeVPyQ",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":7,
-        "vaccines":4,
-        "behave":[
+        "id": "e121444d-ccdd-41bb-8d59-187436fc36d5",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 4,
+        "behave": [
             "Loyal",
             "Nervous",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/E2dPOsx9IU.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/E2dPOsx9IU.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"4PdBh651PvZmDbKSU0rA",
-        "race":"Shih Tzu",
-        "gender":"Male",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "6e11c303-c7b2-4708-b344-2e45d77f5bca",
+        "race": "Shih Tzu",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Nervous",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/XVBZgJpWEB.jpg",
-        "name":"Milo",
-        "status":"Available"
+        "image": "https://random.dog/XVBZgJpWEB.jpg",
+        "name": "Milo",
+        "status": "available"
     },
     {
-        "id":"oWXUNEZ1Dn6kbGC2zorx",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":11,
-        "vaccines":4,
-        "behave":[
+        "id": "709ca14a-fea8-4037-bece-6d07bcffac8a",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 11,
+        "vaccines": 4,
+        "behave": [
             "Loyal",
             "Calm",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/pvoVlmyikB.jpg",
-        "name":"Cooper",
-        "status":"Fostered"
+        "image": "https://random.dog/pvoVlmyikB.jpg",
+        "name": "Cooper",
+        "status": "fostered"
     },
     {
-        "id":"QqCxT6mNQwESQlt1bw2M",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":2,
-        "vaccines":2,
-        "behave":[
+        "id": "a7cc47eb-1d41-4500-8e76-1683fdb690e6",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 2,
+        "vaccines": 2,
+        "behave": [
             "Friendly",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/IO70548N6w.jpg",
-        "name":"Daisy",
-        "status":"Available"
+        "image": "https://random.dog/IO70548N6w.jpg",
+        "name": "Daisy",
+        "status": "available"
     },
     {
-        "id":"KHDcjD5rgkRjnQIb4aQK",
-        "race":"Pomeranian",
-        "gender":"Male",
-        "age":14,
-        "vaccines":0,
-        "behave":[
+        "id": "06fb9089-5333-42aa-a0ce-54203350fd5e",
+        "race": "Pomeranian",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 0,
+        "behave": [
             "Curious",
             "Shy",
             "Playful",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/Ng9w2szkn6.jpg",
-        "name":"Cooper",
-        "status":"Pending"
+        "image": "https://random.dog/Ng9w2szkn6.jpg",
+        "name": "Cooper",
+        "status": "pending"
     },
     {
-        "id":"mfudQ9dRjib3omSNUs9C",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":2,
-        "vaccines":1,
-        "behave":[
+        "id": "4029ed2e-de1f-4385-a74d-628711974d53",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 2,
+        "vaccines": 1,
+        "behave": [
             "Calm",
             "Nervous",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/CbvqClskYj.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/CbvqClskYj.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"cTi5D9g1MBfw3WzW2bwP",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":7,
-        "vaccines":2,
-        "behave":[
+        "id": "8fbeb9ee-af4e-450f-9ad5-a8480fe59700",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 2,
+        "behave": [
             "Protective",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/IwokFDB9Gv.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/IwokFDB9Gv.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"Lh8xJi82ILd2dn5XIZjN",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":14,
-        "vaccines":3,
-        "behave":[
+        "id": "107f9bd5-063b-4643-b789-fe058b44e857",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 14,
+        "vaccines": 3,
+        "behave": [
             "Protective",
             "Friendly",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/wBDYUPrXym.jpg",
-        "name":"Milo",
-        "status":"Fostered"
+        "image": "https://random.dog/wBDYUPrXym.jpg",
+        "name": "Milo",
+        "status": "fostered"
     },
     {
-        "id":"UggWZyWVheREnWq4CtUV",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":9,
-        "vaccines":0,
-        "behave":[
+        "id": "1ab107ac-959b-4fb5-aedb-4fe1dd47155c",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 9,
+        "vaccines": 0,
+        "behave": [
             "Aggressive",
             "Friendly",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/eKJKZ6q9vl.jpg",
-        "name":"Buddy",
-        "status":"Pending"
+        "image": "https://random.dog/eKJKZ6q9vl.jpg",
+        "name": "Buddy",
+        "status": "pending"
     },
     {
-        "id":"lJOTrA2sRKWQkF8dVz8D",
-        "race":"Husky",
-        "gender":"Male",
-        "age":15,
-        "vaccines":5,
-        "behave":[
+        "id": "067389a8-36e5-416d-a8ce-db9ccd51ce07",
+        "race": "Husky",
+        "gender": "male",
+        "age": 15,
+        "vaccines": 5,
+        "behave": [
             "Nervous",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/Z11gun3M0y.jpg",
-        "name":"Buddy",
-        "status":"Fostered"
+        "image": "https://random.dog/Z11gun3M0y.jpg",
+        "name": "Buddy",
+        "status": "fostered"
     },
     {
-        "id":"EFBSQleC6twNRY4GOdIe",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "fc9053bd-0d1f-43e1-a2b2-d371cda53a40",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Shy",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/0xe0kivL9J.jpg",
-        "name":"Charlie",
-        "status":"Pending"
+        "image": "https://random.dog/0xe0kivL9J.jpg",
+        "name": "Charlie",
+        "status": "pending"
     },
     {
-        "id":"sIh1aC1jUWt1wHwfwjEh",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":3,
-        "vaccines":2,
-        "behave":[
+        "id": "d7dfb6bd-828a-4b21-9f11-6375b68fd5a9",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 3,
+        "vaccines": 2,
+        "behave": [
             "Loyal",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/7ZYi82HPZB.jpg",
-        "name":"Max",
-        "status":"Available"
+        "image": "https://random.dog/7ZYi82HPZB.jpg",
+        "name": "Max",
+        "status": "available"
     },
     {
-        "id":"jwgYK0sFwMeV4eNMQPzd",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":8,
-        "vaccines":0,
-        "behave":[
+        "id": "774d40a1-52a3-4e58-8cc0-d7d0c2df7e88",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 8,
+        "vaccines": 0,
+        "behave": [
             "Shy",
             "Aggressive",
             "Loyal",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/S9NRopmvir.jpg",
-        "name":"Milo",
-        "status":"Available"
+        "image": "https://random.dog/S9NRopmvir.jpg",
+        "name": "Milo",
+        "status": "available"
     },
     {
-        "id":"h7itk2bGLTjgxjEiJ8l8",
-        "race":"Husky",
-        "gender":"Male",
-        "age":6,
-        "vaccines":3,
-        "behave":[
+        "id": "eab19175-92e1-40f8-b60a-3f90af6927a4",
+        "race": "Husky",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 3,
+        "behave": [
             "Shy",
             "Energetic",
             "Loyal",
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/6rTOTU8Q11.jpg",
-        "name":"Molly",
-        "status":"Available"
+        "image": "https://random.dog/6rTOTU8Q11.jpg",
+        "name": "Molly",
+        "status": "available"
     },
     {
-        "id":"da4TSg8DTDYjW2meOsWA",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":6,
-        "vaccines":0,
-        "behave":[
+        "id": "895fde4e-63bf-432b-a914-bd7969cc9202",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 6,
+        "vaccines": 0,
+        "behave": [
             "Loyal",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/10yt5aYDl6.jpg",
-        "name":"Lucy",
-        "status":"Fostered"
+        "image": "https://random.dog/10yt5aYDl6.jpg",
+        "name": "Lucy",
+        "status": "fostered"
     },
     {
-        "id":"pGSGzxyxkCkG4TNd93iS",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":11,
-        "vaccines":3,
-        "behave":[
+        "id": "c25c43ac-9cd3-4705-b173-7b0bec0ea463",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 11,
+        "vaccines": 3,
+        "behave": [
             "Friendly",
             "Nervous",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/wkLOPmUyZN.jpg",
-        "name":"Daisy",
-        "status":"Pending"
+        "image": "https://random.dog/wkLOPmUyZN.jpg",
+        "name": "Daisy",
+        "status": "pending"
     },
     {
-        "id":"3JfuROOLTKFVSnOFaNxL",
-        "race":"Dachshund",
-        "gender":"Female",
-        "age":6,
-        "vaccines":0,
-        "behave":[
+        "id": "b1a7dbaa-1a96-42e2-9db4-14ddaabdb763",
+        "race": "Dachshund",
+        "gender": "female",
+        "age": 6,
+        "vaccines": 0,
+        "behave": [
             "Curious",
             "Calm",
             "Shy",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/GTWMEZqOPr.jpg",
-        "name":"Cooper",
-        "status":"Adopted"
+        "image": "https://random.dog/GTWMEZqOPr.jpg",
+        "name": "Cooper",
+        "status": "adopted"
     },
     {
-        "id":"kB09s1kkhDC5u7NskFOI",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":12,
-        "vaccines":1,
-        "behave":[
+        "id": "399bbef4-0ec2-4f6a-853a-99cf9a94d564",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 12,
+        "vaccines": 1,
+        "behave": [
             "Calm",
             "Energetic",
             "Friendly",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/LL8f6hZC7q.jpg",
-        "name":"Molly",
-        "status":"Available"
+        "image": "https://random.dog/LL8f6hZC7q.jpg",
+        "name": "Molly",
+        "status": "available"
     },
     {
-        "id":"M6cEClLdcBT87T2VDoev",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":9,
-        "vaccines":3,
-        "behave":[
+        "id": "40a57ef1-a596-4ca6-8a0e-31825027ec1a",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 9,
+        "vaccines": 3,
+        "behave": [
             "Nervous",
             "Protective",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/bPlbO7pOup.jpg",
-        "name":"Cooper",
-        "status":"Fostered"
+        "image": "https://random.dog/bPlbO7pOup.jpg",
+        "name": "Cooper",
+        "status": "fostered"
     },
     {
-        "id":"74DVwm5REz5NDmxYLEYj",
-        "race":"Dachshund",
-        "gender":"Male",
-        "age":1,
-        "vaccines":3,
-        "behave":[
+        "id": "92554e8a-e9c7-4b59-b330-df65b96bd37a",
+        "race": "Dachshund",
+        "gender": "male",
+        "age": 1,
+        "vaccines": 3,
+        "behave": [
             "Calm",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/Fvek5P6cQF.jpg",
-        "name":"Max",
-        "status":"Adopted"
+        "image": "https://random.dog/Fvek5P6cQF.jpg",
+        "name": "Max",
+        "status": "adopted"
     },
     {
-        "id":"9M0mOszrpnJuqlbts3Kh",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":6,
-        "vaccines":5,
-        "behave":[
+        "id": "bd872dfa-a666-4bf1-87fd-7946dd871b33",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 6,
+        "vaccines": 5,
+        "behave": [
             "Friendly",
             "Calm",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/juOfXi8SV5.jpg",
-        "name":"Max",
-        "status":"Fostered"
+        "image": "https://random.dog/juOfXi8SV5.jpg",
+        "name": "Max",
+        "status": "fostered"
     },
     {
-        "id":"Z7rLOEhVuk4zh11ZbRrg",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":1,
-        "vaccines":3,
-        "behave":[
+        "id": "7202770d-9ef9-4fcc-87dc-ea02e9332820",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 1,
+        "vaccines": 3,
+        "behave": [
             "Energetic",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/KtYrRHVZVy.jpg",
-        "name":"Bailey",
-        "status":"Available"
+        "image": "https://random.dog/KtYrRHVZVy.jpg",
+        "name": "Bailey",
+        "status": "available"
     },
     {
-        "id":"DHDYfYsEdN9DdYISIbOh",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":10,
-        "vaccines":0,
-        "behave":[
+        "id": "56e40e1e-41c0-4b04-a487-978f8cf81d1f",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 10,
+        "vaccines": 0,
+        "behave": [
             "Protective",
             "Playful",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/xNpLJLP1dX.jpg",
-        "name":"Milo",
-        "status":"Available"
+        "image": "https://random.dog/xNpLJLP1dX.jpg",
+        "name": "Milo",
+        "status": "available"
     },
     {
-        "id":"3K0wRFF8QWpUKIyeKoqc",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":9,
-        "vaccines":0,
-        "behave":[
+        "id": "797f70c9-ae07-49c9-be29-837e01188c03",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 9,
+        "vaccines": 0,
+        "behave": [
             "Calm",
             "Energetic",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/OQMn9U8N0t.jpg",
-        "name":"Cooper",
-        "status":"Fostered"
+        "image": "https://random.dog/OQMn9U8N0t.jpg",
+        "name": "Cooper",
+        "status": "fostered"
     },
     {
-        "id":"4F352ONWSKaNTBrP7yiI",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":10,
-        "vaccines":4,
-        "behave":[
+        "id": "ce9a57f7-0759-401d-aa50-3a50faa702ad",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 10,
+        "vaccines": 4,
+        "behave": [
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/WUQ2iI35Fm.jpg",
-        "name":"Buddy",
-        "status":"Adopted"
+        "image": "https://random.dog/WUQ2iI35Fm.jpg",
+        "name": "Buddy",
+        "status": "adopted"
     },
     {
-        "id":"xs0Ga72fHFI1R4mSPPCY",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":14,
-        "vaccines":0,
-        "behave":[
+        "id": "7cb1f750-4357-4ef6-a0d0-4ed4814821e6",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 0,
+        "behave": [
             "Curious",
             "Friendly",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/36otVIhmbu.jpg",
-        "name":"Molly",
-        "status":"Adopted"
+        "image": "https://random.dog/36otVIhmbu.jpg",
+        "name": "Molly",
+        "status": "adopted"
     },
     {
-        "id":"HWbOEGkrsVX5uhuOcgBl",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":14,
-        "vaccines":2,
-        "behave":[
+        "id": "0ed9470c-fa46-40a8-916c-bbba4e058c1e",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 2,
+        "behave": [
             "Energetic",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/pCSgPkKZ5x.jpg",
-        "name":"Max",
-        "status":"Adopted"
+        "image": "https://random.dog/pCSgPkKZ5x.jpg",
+        "name": "Max",
+        "status": "adopted"
     },
     {
-        "id":"XbYzeEIcnC06JLpHWtUO",
-        "race":"Pomeranian",
-        "gender":"Female",
-        "age":8,
-        "vaccines":1,
-        "behave":[
+        "id": "cb11cb92-9bde-4392-a41d-dd2343a8d391",
+        "race": "Pomeranian",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 1,
+        "behave": [
             "Playful",
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/zMoLrKkV4D.jpg",
-        "name":"Daisy",
-        "status":"Available"
+        "image": "https://random.dog/zMoLrKkV4D.jpg",
+        "name": "Daisy",
+        "status": "available"
     },
     {
-        "id":"7ysufUqynZDpvJMNdxZ3",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":4,
-        "vaccines":2,
-        "behave":[
+        "id": "d1bc5779-a2e7-4fdc-bba9-a6d59c8b3161",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 4,
+        "vaccines": 2,
+        "behave": [
             "Curious",
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/tv7wNzF8hh.jpg",
-        "name":"Buddy",
-        "status":"Pending"
+        "image": "https://random.dog/tv7wNzF8hh.jpg",
+        "name": "Buddy",
+        "status": "pending"
     },
     {
-        "id":"MK5cOJFBFmL0vrh1C8x2",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":6,
-        "vaccines":4,
-        "behave":[
+        "id": "b8860c04-1ae8-4f75-ab0e-7d4a095f6ffc",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 4,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/qiCJypRxtB.jpg",
-        "name":"Bailey",
-        "status":"Pending"
+        "image": "https://random.dog/qiCJypRxtB.jpg",
+        "name": "Bailey",
+        "status": "pending"
     },
     {
-        "id":"ewdtP8OaxTKyIHAZzWCV",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":8,
-        "vaccines":5,
-        "behave":[
+        "id": "bd551567-732b-4848-a01d-513bb3252d34",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 5,
+        "behave": [
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/lHpMEe19gG.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/lHpMEe19gG.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"WePhALAbPPJOAGDbMfYu",
-        "race":"German Shepherd",
-        "gender":"Female",
-        "age":12,
-        "vaccines":2,
-        "behave":[
+        "id": "064789e0-fb79-46cb-b0e2-df1da3f5c195",
+        "race": "German Shepherd",
+        "gender": "female",
+        "age": 12,
+        "vaccines": 2,
+        "behave": [
             "Energetic",
             "Aggressive",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/qxPfTlB81w.jpg",
-        "name":"Bailey",
-        "status":"Adopted"
+        "image": "https://random.dog/qxPfTlB81w.jpg",
+        "name": "Bailey",
+        "status": "adopted"
     },
     {
-        "id":"xjKHZpL21k0nyaXZLOaZ",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":2,
-        "vaccines":1,
-        "behave":[
+        "id": "bbff45cc-6d57-4463-9c16-4a547c33068b",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 2,
+        "vaccines": 1,
+        "behave": [
             "Protective",
             "Curious",
             "Nervous",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/QFTB4XgUH1.jpg",
-        "name":"Charlie",
-        "status":"Pending"
+        "image": "https://random.dog/QFTB4XgUH1.jpg",
+        "name": "Charlie",
+        "status": "pending"
     },
     {
-        "id":"X9pAbGhtjKSOr8xtIizH",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":14,
-        "vaccines":5,
-        "behave":[
+        "id": "81f35968-2593-40a6-8c09-267e245e9e87",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 14,
+        "vaccines": 5,
+        "behave": [
             "Aggressive",
             "Friendly",
             "Nervous",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/bjMITXbhyH.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/bjMITXbhyH.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"TT4zZpM71fTYoRFXKegK",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":11,
-        "vaccines":1,
-        "behave":[
+        "id": "405219c9-b435-4807-bf95-1ddd92745c9e",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 11,
+        "vaccines": 1,
+        "behave": [
             "Loyal",
             "Friendly",
             "Aggressive",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/m6yK28aC0W.jpg",
-        "name":"Molly",
-        "status":"Pending"
+        "image": "https://random.dog/m6yK28aC0W.jpg",
+        "name": "Molly",
+        "status": "pending"
     },
     {
-        "id":"uvLdVrptYzOJSMPVceU9",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":5,
-        "vaccines":3,
-        "behave":[
+        "id": "fa26d96e-8502-40c2-bfff-bf34a9ebe12c",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 5,
+        "vaccines": 3,
+        "behave": [
             "Curious",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/qhAzesMkIL.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/qhAzesMkIL.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"rKdX9sjzxwQnmcCwOO5O",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":14,
-        "vaccines":3,
-        "behave":[
+        "id": "90b488e1-9aa5-45a7-b1cf-36947b47b26d",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 3,
+        "behave": [
             "Energetic",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/JYWqm7ZYDh.jpg",
-        "name":"Molly",
-        "status":"Adopted"
+        "image": "https://random.dog/JYWqm7ZYDh.jpg",
+        "name": "Molly",
+        "status": "adopted"
     },
     {
-        "id":"FNbxZcejGHBUjyxVnMl3",
-        "race":"Shih Tzu",
-        "gender":"Male",
-        "age":10,
-        "vaccines":3,
-        "behave":[
+        "id": "a2976341-2bf8-43a5-ada3-59a605cabea1",
+        "race": "Shih Tzu",
+        "gender": "male",
+        "age": 10,
+        "vaccines": 3,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/dhl2aB80PM.jpg",
-        "name":"Milo",
-        "status":"Pending"
+        "image": "https://random.dog/dhl2aB80PM.jpg",
+        "name": "Milo",
+        "status": "pending"
     },
     {
-        "id":"CkIgw6nwU6uCNAB1FOHP",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":14,
-        "vaccines":5,
-        "behave":[
+        "id": "084d0464-8420-4bc6-852b-2f603f7c7cf2",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 14,
+        "vaccines": 5,
+        "behave": [
             "Curious",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/mZ9zMQNkAB.jpg",
-        "name":"Cooper",
-        "status":"Adopted"
+        "image": "https://random.dog/mZ9zMQNkAB.jpg",
+        "name": "Cooper",
+        "status": "adopted"
     },
     {
-        "id":"RfuuMVz2ygWpfEcsLXKv",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":7,
-        "vaccines":1,
-        "behave":[
+        "id": "6f0b3866-0d98-44c6-ab09-30d564364719",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 7,
+        "vaccines": 1,
+        "behave": [
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/4vfs5fxaoI.jpg",
-        "name":"Buddy",
-        "status":"Pending"
+        "image": "https://random.dog/4vfs5fxaoI.jpg",
+        "name": "Buddy",
+        "status": "pending"
     },
     {
-        "id":"RCSKVmWGWyDMuyAR0NC6",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":15,
-        "vaccines":0,
-        "behave":[
+        "id": "38957d75-90c9-4f3d-b3a2-2c02f0edfc5b",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 15,
+        "vaccines": 0,
+        "behave": [
             "Energetic",
             "Protective",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/yTcFhFztWS.jpg",
-        "name":"Lucy",
-        "status":"Pending"
+        "image": "https://random.dog/yTcFhFztWS.jpg",
+        "name": "Lucy",
+        "status": "pending"
     },
     {
-        "id":"OdedHjlYg4l7po6H0tnR",
-        "race":"Dachshund",
-        "gender":"Male",
-        "age":6,
-        "vaccines":4,
-        "behave":[
+        "id": "8af151df-7b2d-4e3b-993c-6d4ac6ff8253",
+        "race": "Dachshund",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 4,
+        "behave": [
             "Energetic",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/0VXTUwKoZW.jpg",
-        "name":"Max",
-        "status":"Pending"
+        "image": "https://random.dog/0VXTUwKoZW.jpg",
+        "name": "Max",
+        "status": "pending"
     },
     {
-        "id":"3ojEHU5iItiwXPCD8gCY",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":9,
-        "vaccines":5,
-        "behave":[
+        "id": "c39f035f-9a25-4090-84ee-49aac15484c4",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 9,
+        "vaccines": 5,
+        "behave": [
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/cTLCy3VEqU.jpg",
-        "name":"Bailey",
-        "status":"Available"
+        "image": "https://random.dog/cTLCy3VEqU.jpg",
+        "name": "Bailey",
+        "status": "available"
     },
     {
-        "id":"Buih3EkgU0qUJq9q7FKW",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":4,
-        "vaccines":1,
-        "behave":[
+        "id": "40461aef-4c73-4ab7-8ca9-dd1aa84b0ec7",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 4,
+        "vaccines": 1,
+        "behave": [
             "Curious",
             "Aggressive",
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/w7tnV1p5WN.jpg",
-        "name":"Molly",
-        "status":"Adopted"
+        "image": "https://random.dog/w7tnV1p5WN.jpg",
+        "name": "Molly",
+        "status": "adopted"
     },
     {
-        "id":"tgb3epeGX19fUtctT6R8",
-        "race":"Labrador",
-        "gender":"Female",
-        "age":3,
-        "vaccines":1,
-        "behave":[
+        "id": "b7e2e53d-f928-4cb0-b2be-08896443fb7d",
+        "race": "Labrador",
+        "gender": "female",
+        "age": 3,
+        "vaccines": 1,
+        "behave": [
             "Calm",
             "Curious",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/IwqnTh75Hj.jpg",
-        "name":"Bella",
-        "status":"Pending"
+        "image": "https://random.dog/IwqnTh75Hj.jpg",
+        "name": "Bella",
+        "status": "pending"
     },
     {
-        "id":"Zk3fJzqoLoTPK2ueA874",
-        "race":"Husky",
-        "gender":"Male",
-        "age":14,
-        "vaccines":4,
-        "behave":[
+        "id": "13d07877-1d10-4d69-9b13-aba500be155b",
+        "race": "Husky",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 4,
+        "behave": [
             "Nervous",
             "Playful",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/RD7kwiDZyQ.jpg",
-        "name":"Lucy",
-        "status":"Fostered"
+        "image": "https://random.dog/RD7kwiDZyQ.jpg",
+        "name": "Lucy",
+        "status": "fostered"
     },
     {
-        "id":"rod4amVQAdtaQesrP23l",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":12,
-        "vaccines":1,
-        "behave":[
+        "id": "946199f8-a615-41e0-8d3f-73742d6e942b",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 12,
+        "vaccines": 1,
+        "behave": [
             "Energetic",
             "Playful",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/U3gOsQw8xT.jpg",
-        "name":"Lucy",
-        "status":"Fostered"
+        "image": "https://random.dog/U3gOsQw8xT.jpg",
+        "name": "Lucy",
+        "status": "fostered"
     },
     {
-        "id":"LM0SqQnk9bqpi1bhwBSr",
-        "race":"Pomeranian",
-        "gender":"Male",
-        "age":8,
-        "vaccines":5,
-        "behave":[
+        "id": "5e0e5b97-7b2d-4fc5-8869-05803fd760dd",
+        "race": "Pomeranian",
+        "gender": "male",
+        "age": 8,
+        "vaccines": 5,
+        "behave": [
             "Aggressive",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/RN3fRQO7ab.jpg",
-        "name":"Milo",
-        "status":"Fostered"
+        "image": "https://random.dog/RN3fRQO7ab.jpg",
+        "name": "Milo",
+        "status": "fostered"
     },
     {
-        "id":"JzGUBO85e7pcsKaVGRus",
-        "race":"Bulldog",
-        "gender":"Female",
-        "age":11,
-        "vaccines":5,
-        "behave":[
+        "id": "e74128c5-baad-4fd5-a256-b4b7fdd90890",
+        "race": "Bulldog",
+        "gender": "female",
+        "age": 11,
+        "vaccines": 5,
+        "behave": [
             "Friendly",
             "Protective",
             "Energetic",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/TlHnAQ53tj.jpg",
-        "name":"Lucy",
-        "status":"Available"
+        "image": "https://random.dog/TlHnAQ53tj.jpg",
+        "name": "Lucy",
+        "status": "available"
     },
     {
-        "id":"edGlqdVTYg0DF4jtueHW",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":6,
-        "vaccines":3,
-        "behave":[
+        "id": "f7b5c597-6482-4321-9153-5b6e100766a7",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 3,
+        "behave": [
             "Energetic",
             "Aggressive",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/XNLuE7h1VV.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/XNLuE7h1VV.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"iUPCNPGYyY30qRodOp5P",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":3,
-        "vaccines":3,
-        "behave":[
+        "id": "74cb66c7-c48c-42b2-a83e-e2ee3302be95",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 3,
+        "vaccines": 3,
+        "behave": [
             "Aggressive",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/OF4yEvU2BY.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/OF4yEvU2BY.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"tyLPZNCXszLgbj8xVzN2",
-        "race":"Labrador",
-        "gender":"Female",
-        "age":1,
-        "vaccines":2,
-        "behave":[
+        "id": "5ba5f466-8a23-4b97-8bdb-e0330c8b311c",
+        "race": "Labrador",
+        "gender": "female",
+        "age": 1,
+        "vaccines": 2,
+        "behave": [
             "Friendly",
             "Energetic",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/ZxLCT10PIX.jpg",
-        "name":"Daisy",
-        "status":"Available"
+        "image": "https://random.dog/ZxLCT10PIX.jpg",
+        "name": "Daisy",
+        "status": "available"
     },
     {
-        "id":"HsS3gveer50HRiNgH6gI",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":13,
-        "vaccines":5,
-        "behave":[
+        "id": "b34614f0-f953-4a2a-b52d-803747f6d114",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 5,
+        "behave": [
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/IYVGsjmvpq.jpg",
-        "name":"Cooper",
-        "status":"Fostered"
+        "image": "https://random.dog/IYVGsjmvpq.jpg",
+        "name": "Cooper",
+        "status": "fostered"
     },
     {
-        "id":"mQcskklJzuquybgcd7JC",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":4,
-        "vaccines":0,
-        "behave":[
+        "id": "4ed90faf-9ff2-420d-9a23-b068fc5e1e96",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 4,
+        "vaccines": 0,
+        "behave": [
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/lgc1SuBvPW.jpg",
-        "name":"Buddy",
-        "status":"Fostered"
+        "image": "https://random.dog/lgc1SuBvPW.jpg",
+        "name": "Buddy",
+        "status": "fostered"
     },
     {
-        "id":"fOYuAjGFpiRSnXWPrnKU",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":4,
-        "vaccines":4,
-        "behave":[
+        "id": "35f9364c-e445-4ef3-aba3-d7ad1dfe36e0",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 4,
+        "vaccines": 4,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/ipa2d5z1zI.jpg",
-        "name":"Cooper",
-        "status":"Fostered"
+        "image": "https://random.dog/ipa2d5z1zI.jpg",
+        "name": "Cooper",
+        "status": "fostered"
     },
     {
-        "id":"9SUagWTfHpZuctxAvHuJ",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":4,
-        "vaccines":0,
-        "behave":[
+        "id": "0631ca53-34e9-4b77-88f1-1ac5a5b1857a",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 4,
+        "vaccines": 0,
+        "behave": [
             "Playful",
             "Curious",
             "Protective",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/IINRpt5yGF.jpg",
-        "name":"Bailey",
-        "status":"Adopted"
+        "image": "https://random.dog/IINRpt5yGF.jpg",
+        "name": "Bailey",
+        "status": "adopted"
     },
     {
-        "id":"IleJ3gy1I8FEmJhfUQ6A",
-        "race":"Pomeranian",
-        "gender":"Male",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "9d486b42-dbf0-4925-9a62-6c6f99bc2ce7",
+        "race": "Pomeranian",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Protective",
             "Loyal",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/dlFq3dHBiC.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/dlFq3dHBiC.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"tD0BMXHQgrAlVKpclB7D",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":8,
-        "vaccines":4,
-        "behave":[
+        "id": "ca987e11-51f4-496c-8d38-3e60cedf830f",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 4,
+        "behave": [
             "Curious",
             "Protective",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/sqp4VxNZlz.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/sqp4VxNZlz.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"JBdX62ZgwhSv6P650how",
-        "race":"Shih Tzu",
-        "gender":"Male",
-        "age":5,
-        "vaccines":3,
-        "behave":[
+        "id": "be6e30aa-1d90-4bbe-ab65-9032a79dc3b6",
+        "race": "Shih Tzu",
+        "gender": "male",
+        "age": 5,
+        "vaccines": 3,
+        "behave": [
             "Protective",
             "Nervous",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/AOwvz7ccwp.jpg",
-        "name":"Buddy",
-        "status":"Adopted"
+        "image": "https://random.dog/AOwvz7ccwp.jpg",
+        "name": "Buddy",
+        "status": "adopted"
     },
     {
-        "id":"Ct2knbwYCHRAHhEXTpgH",
-        "race":"Dachshund",
-        "gender":"Female",
-        "age":7,
-        "vaccines":1,
-        "behave":[
+        "id": "2c094070-a7ed-4e64-938b-134daaa9216b",
+        "race": "Dachshund",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 1,
+        "behave": [
             "Calm",
             "Nervous",
             "Loyal",
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/l4xIXphn4i.jpg",
-        "name":"Max",
-        "status":"Adopted"
+        "image": "https://random.dog/l4xIXphn4i.jpg",
+        "name": "Max",
+        "status": "adopted"
     },
     {
-        "id":"0TkWhSNMDOqXGtrLAUhj",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":13,
-        "vaccines":2,
-        "behave":[
+        "id": "a6fecdd2-3d1f-4295-86f5-2d187c766a24",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 2,
+        "behave": [
             "Playful",
             "Curious",
             "Protective",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/vKNBuyX7Db.jpg",
-        "name":"Milo",
-        "status":"Pending"
+        "image": "https://random.dog/vKNBuyX7Db.jpg",
+        "name": "Milo",
+        "status": "pending"
     },
     {
-        "id":"SvwZi44K8bC7OMOohR1k",
-        "race":"Labrador",
-        "gender":"Male",
-        "age":3,
-        "vaccines":2,
-        "behave":[
+        "id": "b9ac7f81-2d24-407a-849e-7820c32e9887",
+        "race": "Labrador",
+        "gender": "male",
+        "age": 3,
+        "vaccines": 2,
+        "behave": [
             "Loyal",
             "Curious",
             "Nervous",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/QVnjdxdwtu.jpg",
-        "name":"Lucy",
-        "status":"Fostered"
+        "image": "https://random.dog/QVnjdxdwtu.jpg",
+        "name": "Lucy",
+        "status": "fostered"
     },
     {
-        "id":"Y5IAAn0oyWeXWP70FlYT",
-        "race":"Dachshund",
-        "gender":"Female",
-        "age":11,
-        "vaccines":2,
-        "behave":[
+        "id": "6fb633f8-bc4a-4b83-8363-9ceb4aec728f",
+        "race": "Dachshund",
+        "gender": "female",
+        "age": 11,
+        "vaccines": 2,
+        "behave": [
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/ICkEbBLkNE.jpg",
-        "name":"Charlie",
-        "status":"Fostered"
+        "image": "https://random.dog/ICkEbBLkNE.jpg",
+        "name": "Charlie",
+        "status": "fostered"
     },
     {
-        "id":"QbAic4liQIZqf3lXsFa6",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":14,
-        "vaccines":0,
-        "behave":[
+        "id": "798fc67f-e566-456d-adc9-65d33e8ff6f6",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 0,
+        "behave": [
             "Playful",
             "Friendly",
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/wJdEtUMM3z.jpg",
-        "name":"Molly",
-        "status":"Pending"
+        "image": "https://random.dog/wJdEtUMM3z.jpg",
+        "name": "Molly",
+        "status": "pending"
     },
     {
-        "id":"HwP8q8x2LpDTGMPVy7kv",
-        "race":"Pomeranian",
-        "gender":"Male",
-        "age":8,
-        "vaccines":4,
-        "behave":[
+        "id": "acc97739-ff3a-4f9f-83df-92a6e4726e00",
+        "race": "Pomeranian",
+        "gender": "male",
+        "age": 8,
+        "vaccines": 4,
+        "behave": [
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/MVnMpEWNUf.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/MVnMpEWNUf.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"dDHROQAFpfUsOdDioYjX",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":12,
-        "vaccines":1,
-        "behave":[
+        "id": "9868d8b4-a814-4ac3-b731-a89ee6f93ede",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 12,
+        "vaccines": 1,
+        "behave": [
             "Curious",
             "Friendly",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/PEaCoimmuR.jpg",
-        "name":"Bailey",
-        "status":"Fostered"
+        "image": "https://random.dog/PEaCoimmuR.jpg",
+        "name": "Bailey",
+        "status": "fostered"
     },
     {
-        "id":"6HBX12sQdRnYxdnZwUUW",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":6,
-        "vaccines":5,
-        "behave":[
+        "id": "28a59ba6-9d73-402b-b365-92eef4d0e4f4",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 5,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/PnpuIhfYLk.jpg",
-        "name":"Daisy",
-        "status":"Fostered"
+        "image": "https://random.dog/PnpuIhfYLk.jpg",
+        "name": "Daisy",
+        "status": "fostered"
     },
     {
-        "id":"bnq4noX7mU4cakLS9hS6",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":8,
-        "vaccines":3,
-        "behave":[
+        "id": "904375aa-78d8-4859-8ce4-d957b809d273",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 3,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/hdWSfa05la.jpg",
-        "name":"Lucy",
-        "status":"Fostered"
+        "image": "https://random.dog/hdWSfa05la.jpg",
+        "name": "Lucy",
+        "status": "fostered"
     },
     {
-        "id":"KJDgWiZtT5h2gc5nZPpw",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":1,
-        "vaccines":5,
-        "behave":[
+        "id": "fe3aab4d-3446-4b7c-91c5-11e593432cd7",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 1,
+        "vaccines": 5,
+        "behave": [
             "Nervous",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/NnL1fZzNI8.jpg",
-        "name":"Bella",
-        "status":"Available"
+        "image": "https://random.dog/NnL1fZzNI8.jpg",
+        "name": "Bella",
+        "status": "available"
     },
     {
-        "id":"dzUmYHC9vtR0jzhGgbVu",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":13,
-        "vaccines":3,
-        "behave":[
+        "id": "db9dcd60-8c31-423c-961b-f913f17eb563",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 13,
+        "vaccines": 3,
+        "behave": [
             "Nervous",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/qgM5NjAXZa.jpg",
-        "name":"Max",
-        "status":"Available"
+        "image": "https://random.dog/qgM5NjAXZa.jpg",
+        "name": "Max",
+        "status": "available"
     },
     {
-        "id":"E7XwrKZeLp5beAxvgBRO",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":13,
-        "vaccines":0,
-        "behave":[
+        "id": "1268ed1d-aa3a-41a2-98be-b4830b8f22d2",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 13,
+        "vaccines": 0,
+        "behave": [
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/3D08KFboCH.jpg",
-        "name":"Lucy",
-        "status":"Available"
+        "image": "https://random.dog/3D08KFboCH.jpg",
+        "name": "Lucy",
+        "status": "available"
     },
     {
-        "id":"QCrtFrEcv50Ws9pwpeqI",
-        "race":"Labrador",
-        "gender":"Female",
-        "age":10,
-        "vaccines":5,
-        "behave":[
+        "id": "d50fabd7-260c-4322-a240-4743b94e9903",
+        "race": "Labrador",
+        "gender": "female",
+        "age": 10,
+        "vaccines": 5,
+        "behave": [
             "Friendly"
         ],
-        "image":"https:\/\/random.dog\/EDTvmDOFmJ.jpg",
-        "name":"Cooper",
-        "status":"Available"
+        "image": "https://random.dog/EDTvmDOFmJ.jpg",
+        "name": "Cooper",
+        "status": "available"
     },
     {
-        "id":"tfceyd3nNrm66OFDlnP1",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":9,
-        "vaccines":0,
-        "behave":[
+        "id": "ea349a83-66b4-4ea9-8aba-6f8274789912",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 9,
+        "vaccines": 0,
+        "behave": [
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/2GVXcuY36P.jpg",
-        "name":"Charlie",
-        "status":"Pending"
+        "image": "https://random.dog/2GVXcuY36P.jpg",
+        "name": "Charlie",
+        "status": "pending"
     },
     {
-        "id":"UuGdvtMMlw75w8cED2zv",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":4,
-        "vaccines":1,
-        "behave":[
+        "id": "3cc230f0-fb19-4930-83ec-7e615831c28c",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 4,
+        "vaccines": 1,
+        "behave": [
             "Aggressive",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/e3ibPuoQ36.jpg",
-        "name":"Daisy",
-        "status":"Available"
+        "image": "https://random.dog/e3ibPuoQ36.jpg",
+        "name": "Daisy",
+        "status": "available"
     },
     {
-        "id":"5MDog3J4gF0PlyOgIvYX",
-        "race":"Bulldog",
-        "gender":"Female",
-        "age":4,
-        "vaccines":2,
-        "behave":[
+        "id": "6a3cbae7-1465-4071-b27e-d86ab65fd038",
+        "race": "Bulldog",
+        "gender": "female",
+        "age": 4,
+        "vaccines": 2,
+        "behave": [
             "Calm",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/JbhqARXwVR.jpg",
-        "name":"Milo",
-        "status":"Adopted"
+        "image": "https://random.dog/JbhqARXwVR.jpg",
+        "name": "Milo",
+        "status": "adopted"
     },
     {
-        "id":"km43wJBPOb0njcTiI98v",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":12,
-        "vaccines":3,
-        "behave":[
+        "id": "494f7535-5c12-4651-9c62-bdeed6120ba3",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 12,
+        "vaccines": 3,
+        "behave": [
             "Curious",
             "Aggressive",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/O9mXc1drWa.jpg",
-        "name":"Cooper",
-        "status":"Pending"
+        "image": "https://random.dog/O9mXc1drWa.jpg",
+        "name": "Cooper",
+        "status": "pending"
     },
     {
-        "id":"WLqco8rLdFlMGxy3AWXm",
-        "race":"Husky",
-        "gender":"Male",
-        "age":4,
-        "vaccines":1,
-        "behave":[
+        "id": "d9d95663-9254-42f8-b206-44f98b21c87b",
+        "race": "Husky",
+        "gender": "male",
+        "age": 4,
+        "vaccines": 1,
+        "behave": [
             "Calm"
         ],
-        "image":"https:\/\/random.dog\/Easxvs4GPW.jpg",
-        "name":"Daisy",
-        "status":"Fostered"
+        "image": "https://random.dog/Easxvs4GPW.jpg",
+        "name": "Daisy",
+        "status": "fostered"
     },
     {
-        "id":"nFwjf53GHR2C42u1cl5W",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":15,
-        "vaccines":2,
-        "behave":[
+        "id": "ac2eeaa3-ae77-47c1-a3c9-8644f9ef0026",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 15,
+        "vaccines": 2,
+        "behave": [
             "Loyal",
             "Aggressive"
         ],
-        "image":"https:\/\/random.dog\/Mp0qp6ooR1.jpg",
-        "name":"Cooper",
-        "status":"Available"
+        "image": "https://random.dog/Mp0qp6ooR1.jpg",
+        "name": "Cooper",
+        "status": "available"
     },
     {
-        "id":"sJqLIdUcxm6tENjsq8jx",
-        "race":"Golden Retriever",
-        "gender":"Male",
-        "age":6,
-        "vaccines":4,
-        "behave":[
+        "id": "9875c94c-3d41-4372-a994-46ebae94deaa",
+        "race": "Golden Retriever",
+        "gender": "male",
+        "age": 6,
+        "vaccines": 4,
+        "behave": [
             "Friendly",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/M1BXOPhXE2.jpg",
-        "name":"Buddy",
-        "status":"Adopted"
+        "image": "https://random.dog/M1BXOPhXE2.jpg",
+        "name": "Buddy",
+        "status": "adopted"
     },
     {
-        "id":"EQVDFVgSktqXCTpiyPAo",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":1,
-        "vaccines":2,
-        "behave":[
+        "id": "0fb70b6a-4392-4211-a6b2-579605f47c22",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 1,
+        "vaccines": 2,
+        "behave": [
             "Friendly",
             "Curious",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/pDyWl335vl.jpg",
-        "name":"Daisy",
-        "status":"Adopted"
+        "image": "https://random.dog/pDyWl335vl.jpg",
+        "name": "Daisy",
+        "status": "adopted"
     },
     {
-        "id":"E5mGcVBTOK3q2w23auWa",
-        "race":"Pomeranian",
-        "gender":"Male",
-        "age":5,
-        "vaccines":3,
-        "behave":[
+        "id": "e43c2ca8-fe8f-4c03-a267-b7cd9c64edf7",
+        "race": "Pomeranian",
+        "gender": "male",
+        "age": 5,
+        "vaccines": 3,
+        "behave": [
             "Aggressive",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/aYpHMwidWy.jpg",
-        "name":"Milo",
-        "status":"Pending"
+        "image": "https://random.dog/aYpHMwidWy.jpg",
+        "name": "Milo",
+        "status": "pending"
     },
     {
-        "id":"mYWSZmRHA5Scqrhp9cpW",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":10,
-        "vaccines":2,
-        "behave":[
+        "id": "e9868bb8-1791-47f8-89ca-15bf33823c56",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 10,
+        "vaccines": 2,
+        "behave": [
             "Nervous",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/iFN3uuclDo.jpg",
-        "name":"Charlie",
-        "status":"Available"
+        "image": "https://random.dog/iFN3uuclDo.jpg",
+        "name": "Charlie",
+        "status": "available"
     },
     {
-        "id":"AX9SgnbKXLjagNqhezfC",
-        "race":"Bulldog",
-        "gender":"Female",
-        "age":11,
-        "vaccines":4,
-        "behave":[
+        "id": "780e10ce-3f12-44dc-b5c3-50b206958dbf",
+        "race": "Bulldog",
+        "gender": "female",
+        "age": 11,
+        "vaccines": 4,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/Z0ZV2N1OiP.jpg",
-        "name":"Milo",
-        "status":"Fostered"
+        "image": "https://random.dog/Z0ZV2N1OiP.jpg",
+        "name": "Milo",
+        "status": "fostered"
     },
     {
-        "id":"M098C0M75JnNEJrch6cY",
-        "race":"Beagle",
-        "gender":"Male",
-        "age":15,
-        "vaccines":4,
-        "behave":[
+        "id": "d14dac06-8772-46d3-8409-07d78e38cc3a",
+        "race": "Beagle",
+        "gender": "male",
+        "age": 15,
+        "vaccines": 4,
+        "behave": [
             "Aggressive",
             "Nervous"
         ],
-        "image":"https:\/\/random.dog\/fBKT62q7vA.jpg",
-        "name":"Cooper",
-        "status":"Available"
+        "image": "https://random.dog/fBKT62q7vA.jpg",
+        "name": "Cooper",
+        "status": "available"
     },
     {
-        "id":"JDEDUEj5Cuujc0mb43da",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":14,
-        "vaccines":2,
-        "behave":[
+        "id": "fbbc4ab0-381d-4176-9715-68e270cc0b19",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 14,
+        "vaccines": 2,
+        "behave": [
             "Curious",
             "Loyal",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/OtBnpeU6fi.jpg",
-        "name":"Molly",
-        "status":"Available"
+        "image": "https://random.dog/OtBnpeU6fi.jpg",
+        "name": "Molly",
+        "status": "available"
     },
     {
-        "id":"jXqrBRdEaVY8ZhGqJuCS",
-        "race":"Shih Tzu",
-        "gender":"Female",
-        "age":10,
-        "vaccines":3,
-        "behave":[
+        "id": "593684e2-5b32-4ddb-844a-65da7dcdcc91",
+        "race": "Shih Tzu",
+        "gender": "female",
+        "age": 10,
+        "vaccines": 3,
+        "behave": [
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/JCZzorcjNI.jpg",
-        "name":"Bailey",
-        "status":"Fostered"
+        "image": "https://random.dog/JCZzorcjNI.jpg",
+        "name": "Bailey",
+        "status": "fostered"
     },
     {
-        "id":"gv3nv1il36l6jSfZUQ4u",
-        "race":"Poodle",
-        "gender":"Female",
-        "age":7,
-        "vaccines":5,
-        "behave":[
+        "id": "920be970-342a-4b86-9f5b-1bcc6a07bc8c",
+        "race": "Poodle",
+        "gender": "female",
+        "age": 7,
+        "vaccines": 5,
+        "behave": [
             "Curious"
         ],
-        "image":"https:\/\/random.dog\/7pDsrZR7Zr.jpg",
-        "name":"Milo",
-        "status":"Fostered"
+        "image": "https://random.dog/7pDsrZR7Zr.jpg",
+        "name": "Milo",
+        "status": "fostered"
     },
     {
-        "id":"03sjntQVoebIMxLerI5U",
-        "race":"Beagle",
-        "gender":"Female",
-        "age":5,
-        "vaccines":5,
-        "behave":[
+        "id": "ae377917-5c8c-40f2-ab87-5351f0ca14e1",
+        "race": "Beagle",
+        "gender": "female",
+        "age": 5,
+        "vaccines": 5,
+        "behave": [
             "Calm",
             "Curious",
             "Shy",
             "Energetic"
         ],
-        "image":"https:\/\/random.dog\/zWynVGBhhQ.jpg",
-        "name":"Max",
-        "status":"Adopted"
+        "image": "https://random.dog/zWynVGBhhQ.jpg",
+        "name": "Max",
+        "status": "adopted"
     },
     {
-        "id":"KqRCrZSU7orPyImLeAx1",
-        "race":"Golden Retriever",
-        "gender":"Female",
-        "age":5,
-        "vaccines":2,
-        "behave":[
+        "id": "ae29b8c1-d2c8-48bc-9084-7390e2aba525",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 5,
+        "vaccines": 2,
+        "behave": [
             "Nervous",
             "Calm",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/lGsUDZnl23.jpg",
-        "name":"Cooper",
-        "status":"Fostered"
+        "image": "https://random.dog/lGsUDZnl23.jpg",
+        "name": "Cooper",
+        "status": "fostered"
     },
     {
-        "id":"qiELGGKU07q6ECdqeZLu",
-        "race":"Poodle",
-        "gender":"Male",
-        "age":1,
-        "vaccines":1,
-        "behave":[
+        "id": "4abe1d43-a3ce-4232-b966-5911e75df78f",
+        "race": "Poodle",
+        "gender": "male",
+        "age": 1,
+        "vaccines": 1,
+        "behave": [
             "Aggressive",
             "Curious",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/SO2QVVcvPU.jpg",
-        "name":"Molly",
-        "status":"Fostered"
+        "image": "https://random.dog/SO2QVVcvPU.jpg",
+        "name": "Molly",
+        "status": "fostered"
     },
     {
-        "id":"lYMXHAmQUx3HejozeTNv",
-        "race":"German Shepherd",
-        "gender":"Male",
-        "age":11,
-        "vaccines":1,
-        "behave":[
+        "id": "cd01520b-fdd3-4e25-9ff6-c6db0b7cdc0d",
+        "race": "German Shepherd",
+        "gender": "male",
+        "age": 11,
+        "vaccines": 1,
+        "behave": [
             "Loyal",
             "Curious",
             "Calm",
             "Shy"
         ],
-        "image":"https:\/\/random.dog\/zikj2fCEzB.jpg",
-        "name":"Buddy",
-        "status":"Available"
+        "image": "https://random.dog/zikj2fCEzB.jpg",
+        "name": "Buddy",
+        "status": "available"
     },
     {
-        "id":"lpMxHMPurnvHMkKuEabU",
-        "race":"Husky",
-        "gender":"Female",
-        "age":8,
-        "vaccines":3,
-        "behave":[
+        "id": "6001481a-371a-4353-90c0-d3cbbdfd1c2d",
+        "race": "Husky",
+        "gender": "female",
+        "age": 8,
+        "vaccines": 3,
+        "behave": [
             "Friendly",
             "Protective",
             "Loyal"
         ],
-        "image":"https:\/\/random.dog\/pHdbLPs5X7.jpg",
-        "name":"Lucy",
-        "status":"Adopted"
+        "image": "https://random.dog/pHdbLPs5X7.jpg",
+        "name": "Lucy",
+        "status": "adopted"
     },
     {
-        "id":"Q2CPNZIU8SYMyaCpt3E2",
-        "race":"Bulldog",
-        "gender":"Male",
-        "age":1,
-        "vaccines":4,
-        "behave":[
+        "id": "fb665c5c-2b29-4c2e-9bf3-1147d6fda6c6",
+        "race": "Bulldog",
+        "gender": "male",
+        "age": 1,
+        "vaccines": 4,
+        "behave": [
             "Friendly",
             "Loyal",
             "Energetic",
             "Protective"
         ],
-        "image":"https:\/\/random.dog\/msgUlMd86Q.jpg",
-        "name":"Molly",
-        "status":"Adopted"
+        "image": "https://random.dog/msgUlMd86Q.jpg",
+        "name": "Molly",
+        "status": "adopted"
     },
     {
-        "id":"T6rB2HF00a2t5soW1NAD",
-        "race":"Pomeranian",
-        "gender":"Male",
-        "age":14,
-        "vaccines":4,
-        "behave":[
+        "id": "c5bcacf9-3dbb-4c4b-aed8-633ca1fad023",
+        "race": "Pomeranian",
+        "gender": "male",
+        "age": 14,
+        "vaccines": 4,
+        "behave": [
             "Loyal",
             "Playful"
         ],
-        "image":"https:\/\/random.dog\/2GJ3oOiRiQ.jpg",
-        "name":"Daisy",
-        "status":"Fostered"
+        "image": "https://random.dog/2GJ3oOiRiQ.jpg",
+        "name": "Daisy",
+        "status": "fostered"
+    },
+    {
+        "id": "e1941bb6-60a8-4fba-820e-6c807b249e75",
+        "race": "Golden Retriever",
+        "gender": "female",
+        "age": 2,
+        "vaccines": 3,
+        "behave": [
+            "Friendly",
+            "Energetic"
+        ],
+        "image": "https://random.dog/2GJ3oOiRiQ.jpg",
+        "name": "Luna",
+        "status": "available"
     }
 ]

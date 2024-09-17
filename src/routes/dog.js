@@ -8,14 +8,14 @@ const {
     deleteDog,
 } = require('.././controllers/dog');
 
-router.get('/:dog-id', getDogById);
+router.get('/:id', getDogById);
 
 router.get('/', getFilteredDogsListByParams);
 
 router.post('/', validateDogBody, requiredDogBodyField, addNewDog);
 
-router.put('/:dogId', validateDogBody, updateDogDetails);
+router.put('/:id', validateDogBody, updateDogDetails);
 
-router.delete('/:dogId', deleteDog);
+router.delete('/:id', deleteDog);
 
 module.exports = router;
