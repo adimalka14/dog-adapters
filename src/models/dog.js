@@ -5,8 +5,7 @@ const dogPathFile = path.join(__dirname, '..', 'mocks', 'mock_dogs_data.json');
 async function loadDogsFromFile() {
     try {
         const data = await fs.readFile(dogPathFile, 'utf-8');
-        const dogs = JSON.parse(data);
-        return dogs;
+        return JSON.parse(data);
     } catch (error) {
         console.error('Error loading dogs from file:', error);
         throw error;
