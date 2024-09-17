@@ -20,13 +20,19 @@ The **Dog Adapters** project is a web-based application designed for managing th
 ## Technologies Used
 
 - **Node.js**: JavaScript runtime for building the server-side logic.
-- **Express.js**: Web framework for handling routes and middleware.
-- **Passport.js**: Authentication middleware for Node.js with local strategy.
-- **bcrypt**: Used for hashing passwords to securely store user credentials.
-- **UUID**: To generate unique identifiers for both users and dog profiles.
-- **Helmet.js**: Security middleware to secure the app with HTTP headers.
-- **Express-rate-limit**: To prevent abuse of login and registration routes.
-- **JSON**: User and dog data is stored in JSON format, offering a simple data persistence solution.
+- **Express.js**: Web framework for building the backend RESTful API.
+- **Passport.js**: Authentication middleware for handling user login and registration.
+- **bcrypt**: Library for hashing passwords and securing user credentials.
+- **UUID**: To generate unique identifiers for users and dog profiles.
+- **Helmet.js**: Security middleware to help secure HTTP headers.
+- **Express-rate-limit**: Middleware to prevent abuse of routes like login and registration.
+- **CORS**: Middleware for enabling Cross-Origin Resource Sharing in the app.
+- **Morgan**: HTTP request logger middleware for logging requests to the server.
+- **Dotenv**: Module for loading environment variables from a `.env` file.
+- **Compression**: Middleware for compressing HTTP responses to improve performance.
+- **Postman**: Tool for testing and documenting API requests during development.
+- **nodemon**: Tool for automatically restarting the server during development.
+- **Prettier**: Code formatting tool to maintain consistency in code style.
 
 ---
 
