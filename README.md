@@ -62,7 +62,7 @@ The **Dog Adapters** project is a web-based application designed for managing th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo-link
+   git clone https://github.com/adimalka14/dog-adapters.git
    cd dog-adapters
 
 2. Install dependencies:
