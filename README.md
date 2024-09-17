@@ -33,6 +33,18 @@ The **Dog Adapters** project is a web-based application designed for managing th
 - **Postman**: Tool for testing and documenting API requests during development.
 - **nodemon**: Tool for automatically restarting the server during development.
 - **Prettier**: Code formatting tool to maintain consistency in code style.
+-  **Mock Data (JSON)**: Used to simulate real-world data for users and dog profiles during development.
+-  
+---
+
+## Mock Data
+
+During the development process, **mock data** was used to simulate real-world scenarios. This included mock user data and dog profiles, which were stored in JSON format to test API endpoints and simulate database interactions.
+
+- **Mock Users**: Simulated user data including first name, last name, email, gender, and hashed passwords.
+- **Mock Dogs**: Simulated dog profiles with attributes such as race, gender, age, behaviors, and status.
+
+The mock data was used extensively for testing user authentication, dog management functionalities, and overall application behavior before integrating with a real database.
 
 ---
 
