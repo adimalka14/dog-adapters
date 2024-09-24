@@ -34,7 +34,6 @@ The **Dog Adapters** project is a web-based application designed for managing th
 - **nodemon**: Tool for automatically restarting the server during development.
 - **Prettier**: Code formatting tool to maintain consistency in code style.
 -  **Mock Data (JSON)**: Used to simulate real-world data for users and dog profiles during development.
--  
 ---
 
 ## Mock Data
@@ -58,15 +57,21 @@ The mock data was used extensively for testing user authentication, dog manageme
 │   └── dog.router.js          # Dog model (load and save dogs from JSON)
 │
 ├── routes
+│   ├── index.js               # index routes (init all routers)
+│   ├── main.router.js          # main router for '/'
 │   ├── auth.router.js         # Authentication routes (login, logout, register)
 │   ├── dog.router.js          # Dog routes (CRUD operations for dog profiles)
 │   └── user.model.js         # User routes (CRUD operations for users)
 │
 ├── middlewares
-│   ├── passportConfig.js     # Passport.js configuration for local strategy
-│   ├── rateLimiter.mw.js  # Rate limiting middleware
-│   └── sessionConfig.js      # Session handling using express-sessionConfig
+│   ├── dog.mw.js             # dog middleware
+│   ├── rateLimiter.mw.js     # Rate limiting middleware
+│   └── auth.mw.js            # auth middleware 
 │
+├── config
+│   ├── passportConfig.js     # Passport.js configuration for local strategy
+│   └── sessionConfig.js      # Session handling using express-sessionConfig
+|
 ├── utils
 │   └── hashingPassword.js      # Helper functions for password hashing and validation
 │
