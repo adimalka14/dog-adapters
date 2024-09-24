@@ -20,13 +20,31 @@ The **Dog Adapters** project is a web-based application designed for managing th
 ## Technologies Used
 
 - **Node.js**: JavaScript runtime for building the server-side logic.
-- **Express.js**: Web framework for handling routes and middleware.
-- **Passport.js**: Authentication middleware for Node.js with local strategy.
-- **bcrypt**: Used for hashing passwords to securely store user credentials.
-- **UUID**: To generate unique identifiers for both users and dog profiles.
-- **Helmet.js**: Security middleware to secure the app with HTTP headers.
-- **Express-rate-limit**: To prevent abuse of login and registration routes.
-- **JSON**: User and dog data is stored in JSON format, offering a simple data persistence solution.
+- **Express.js**: Web framework for building the backend RESTful API.
+- **Passport.js**: Authentication middleware for handling user login and registration.
+- **bcrypt**: Library for hashing passwords and securing user credentials.
+- **UUID**: To generate unique identifiers for users and dog profiles.
+- **Helmet.js**: Security middleware to help secure HTTP headers.
+- **Express-rate-limit**: Middleware to prevent abuse of routes like login and registration.
+- **CORS**: Middleware for enabling Cross-Origin Resource Sharing in the app.
+- **Morgan**: HTTP request logger middleware for logging requests to the server.
+- **Dotenv**: Module for loading environment variables from a `.env` file.
+- **Compression**: Middleware for compressing HTTP responses to improve performance.
+- **Postman**: Tool for testing and documenting API requests during development.
+- **nodemon**: Tool for automatically restarting the server during development.
+- **Prettier**: Code formatting tool to maintain consistency in code style.
+-  **Mock Data (JSON)**: Used to simulate real-world data for users and dog profiles during development.
+-  
+---
+
+## Mock Data
+
+During the development process, **mock data** was used to simulate real-world scenarios. This included mock user data and dog profiles, which were stored in JSON format to test API endpoints and simulate database interactions.
+
+- **Mock Users**: Simulated user data including first name, last name, email, gender, and hashed passwords.
+- **Mock Dogs**: Simulated dog profiles with attributes such as race, gender, age, behaviors, and status.
+
+The mock data was used extensively for testing user authentication, dog management functionalities, and overall application behavior before integrating with a real database.
 
 ---
 
@@ -62,7 +80,7 @@ The **Dog Adapters** project is a web-based application designed for managing th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo-link
+   git clone https://github.com/adimalka14/dog-adapters.git
    cd dog-adapters
 
 2. Install dependencies:
