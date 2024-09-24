@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { ensureAuthenticatedMW } = require('../middlewares/authentication');
+const { ensureAuthenticatedMW } = require('../middlewares/authentication.mw');
 const {
     getUserDetails,
     updateUserDetails,
     deleteUser,
-} = require('../controllers/users');
+} = require('../controllers/users.ctrl');
 
 router.get('/:id', ensureAuthenticatedMW, getUserDetails);
 

@@ -1,7 +1,7 @@
-const { loadDogsFromFile, saveDogsToFile } = require('../models/dog');
+const { loadDogsFromFile, saveDogsToFile } = require('../models/dog.model');
 const { v4: uuidv4 } = require('uuid');
 
-async function getDogById(req, res, next) {
+async function getDogByIdCtrl(req, res, next) {
     const dogId = req.params.id;
     const dogs = await loadDogsFromFile();
     const dog = dogs.find((dog) => dog.id === dogId);
@@ -13,7 +13,7 @@ async function getDogById(req, res, next) {
     }
 }
 
-async function getFilteredDogsListByParams(req, res, next) {
+async function getFilteredDogsListByParamsCtrl(req, res, next) {
     try {
         const dogParams = {
             id: req.query.id ?? undefined,
@@ -52,7 +52,7 @@ async function getFilteredDogsListByParams(req, res, next) {
     }
 }
 
-async function addNewDog(req, res, next) {
+async function addNewDogCtrl(req, res, next) {
     try {
         console.log(req.body.behave);
         const newDog = {
@@ -78,7 +78,7 @@ async function addNewDog(req, res, next) {
     }
 }
 
-async function updateDogDetails(req, res, next) {
+async function updateDogDetailsCtrl(req, res, next) {
     try {
         const dogId = req.params.id;
         const dogs = await loadDogsFromFile();
@@ -105,7 +105,7 @@ async function updateDogDetails(req, res, next) {
     }
 }
 
-async function deleteDog(req, res, next) {
+async function deleteDogCtrl(req, res, next) {
     try {
         const dogId = req.params.id;
         const dogs = await loadDogsFromFile();
@@ -125,9 +125,9 @@ async function deleteDog(req, res, next) {
 }
 
 module.exports = {
-    getDogById,
-    getFilteredDogsListByParams,
-    addNewDog,
-    updateDogDetails,
-    deleteDog,
+    getDogByIdCtrl,
+    getFilteredDogsListByParamsCtrl,
+    addNewDogCtrl,
+    updateDogDetailsCtrl,
+    deleteDogCtrl,
 };

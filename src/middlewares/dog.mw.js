@@ -1,6 +1,6 @@
 const { uuidValidate } = require('uuid');
 
-async function validateDogBody(req, res, next) {
+async function validateDogBodyMW(req, res, next) {
     let { id, race, gender, age, vaccines, behave, image, name, status } =
         req.body;
 
@@ -49,7 +49,7 @@ async function validateDogBody(req, res, next) {
     next();
 }
 
-async function requiredDogBodyField(req, res, next) {
+async function requiredDogBodyFieldMW(req, res, next) {
     const { gender, age } = req.body;
 
     if (!gender || !['male', 'female'].includes(gender.toLowerCase())) {
@@ -68,6 +68,6 @@ async function requiredDogBodyField(req, res, next) {
 }
 
 module.exports = {
-    validateDogBody,
-    requiredDogBodyField,
+    validateDogBodyMW,
+    requiredDogBodyFieldMW,
 };

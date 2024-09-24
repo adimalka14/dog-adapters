@@ -1,7 +1,7 @@
 const passport = require('passport');
 const { Strategy: LocalStrategy } = require('passport-local');
-const { findUserByMail } = require('../models/user');
-const { comparePasswords } = require('../utils/helpers');
+const { findUserByMail } = require('../models/user.model');
+const { comparePasswords } = require('../utils/hashingPassword');
 
 passport.use(
     new LocalStrategy(

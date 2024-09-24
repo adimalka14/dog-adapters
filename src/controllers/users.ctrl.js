@@ -1,4 +1,4 @@
-const { loadUsersFromFile, saveUsersToFile } = require('../models/user');
+const { loadUsersFromFile, saveUsersToFile } = require('../models/user.model');
 
 getUserDetails = async (req, res, next) => {
     const userId = req.params.id;

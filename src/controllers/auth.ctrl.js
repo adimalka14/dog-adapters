@@ -1,13 +1,13 @@
-const { hashPassword } = require('../utils/helpers');
+const { hashPassword } = require('../utils/hashingPassword');
 const {
     findUserByMail,
     loadUsersFromFile,
     saveUsersToFile,
-} = require('../models/user');
+} = require('../models/user.model');
 const passport = require('passport');
 const { v4: uuidv4 } = require('uuid');
 
-const login = async (req, res, next) => {
+const loginCtrl = async (req, res, next) => {
     const { email, password } = req.body;
 
     if (!email || !password) {
@@ -27,14 +27,14 @@ const login = async (req, res, next) => {
     })(req, res, next);
 };
 
-const logout = async (req, res, next) => {
+const logoutCtrl = async (req, res, next) => {
     req.logout((err) => {
         if (err) return next(err);
         res.json({ message: 'Logged out successfully' });
     });
 };
 
-const register = async (req, res, next) => {
+const registerCtrl = async (req, res, next) => {
     const { first_name, last_name, email, gender, password } = req.body;
 
     if (!email || !password) {
@@ -77,7 +77,7 @@ const register = async (req, res, next) => {
 };
 
 module.exports = {
-    login,
-    logout,
-    register,
+    loginCtrl,
+    logoutCtrl,
+    registerCtrl,
 };

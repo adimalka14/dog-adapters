@@ -12,7 +12,7 @@ The **Dog Adapters** project is a web-based application designed for managing th
 - **User Management**: CRUD (Create, Read, Update, Delete) functionality for users stored in JSON files.
 - **Dog Management**: CRUD operations on dog profiles stored in JSON files, including dog details such as race, age, gender, behaviors, and vaccination history.
 - **Rate Limiting**: Protects sensitive routes like login and registration from excessive requests using `express-rate-limit`.
-- **Session Management**: User sessions handled using `express-session`.
+- **Session Management**: User sessions handled using `express-sessionConfig`.
 - **Security**: Use of `Helmet.js` to enhance security by setting various HTTP headers.
 
 ---
@@ -36,21 +36,21 @@ The **Dog Adapters** project is a web-based application designed for managing th
 /src
 │
 ├── models
-│   ├── user.js         # User model (load and save users from JSON)
-│   └── dog.js          # Dog model (load and save dogs from JSON)
+│   ├── user.model.js         # User model (load and save users from JSON)
+│   └── dog.router.js          # Dog model (load and save dogs from JSON)
 │
 ├── routes
-│   ├── auth.js         # Authentication routes (login, logout, register)
-│   ├── dog.js          # Dog routes (CRUD operations for dog profiles)
-│   └── user.js         # User routes (CRUD operations for users)
+│   ├── auth.router.js         # Authentication routes (login, logout, register)
+│   ├── dog.router.js          # Dog routes (CRUD operations for dog profiles)
+│   └── user.model.js         # User routes (CRUD operations for users)
 │
 ├── middlewares
-│   ├── passport.js     # Passport.js configuration for local strategy
-│   ├── rateLimiter.js  # Rate limiting middleware
-│   └── session.js      # Session handling using express-session
+│   ├── passportConfig.js     # Passport.js configuration for local strategy
+│   ├── rateLimiter.mw.js  # Rate limiting middleware
+│   └── sessionConfig.js      # Session handling using express-sessionConfig
 │
 ├── utils
-│   └── helpers.js      # Helper functions for password hashing and validation
+│   └── hashingPassword.js      # Helper functions for password hashing and validation
 │
 └── app.js              # Main app file that configures middleware and routes
 ```
