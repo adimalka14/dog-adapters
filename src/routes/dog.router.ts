@@ -1,15 +1,17 @@
-const router = require('express').Router();
-const {
+import { Router } from 'express';
+import {
     validateDogBodyMW,
     requiredDogBodyFieldMW,
-} = require('../middlewares/dog.mw');
-const {
+} from '../middlewares/dog.mw';
+import {
     getDogByIdCtrl,
     getFilteredDogsListByParamsCtrl,
     addNewDogCtrl,
     updateDogDetailsCtrl,
     deleteDogCtrl,
-} = require('../controllers/dog.ctrl');
+} from '../controllers/dog.ctrl';
+
+const router = Router();
 
 router.get('/:id', getDogByIdCtrl);
 
@@ -21,4 +23,4 @@ router.put('/:id', validateDogBodyMW, updateDogDetailsCtrl);
 
 router.delete('/:id', deleteDogCtrl);
 
-module.exports = router;
+export default router;

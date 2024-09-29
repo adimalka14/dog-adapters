@@ -1,10 +1,12 @@
-const router = require('express').Router();
-const { ensureAuthenticatedMW } = require('../middlewares/authentication.mw');
-const {
+import { Router } from 'express';
+import { ensureAuthenticatedMW } from '../middlewares/authentication.mw';
+import {
     getUserDetails,
     updateUserDetails,
     deleteUser,
-} = require('../controllers/users.ctrl');
+} from '../controllers/users.ctrl';
+
+const router = Router();
 
 router.get('/:id', ensureAuthenticatedMW, getUserDetails);
 
@@ -12,4 +14,4 @@ router.put('/:id', ensureAuthenticatedMW, updateUserDetails);
 
 router.delete('/:id', ensureAuthenticatedMW, deleteUser);
 
-module.exports = router;
+export default router;

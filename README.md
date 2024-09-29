@@ -53,19 +53,19 @@ The mock data was used extensively for testing user authentication, dog manageme
 /src
 │
 ├── models
-│   ├── user.model.js         # User model (load and save users from JSON)
-│   └── dog.router.js          # Dog model (load and save dogs from JSON)
+│   ├── user.model.ts         # User model (load and save users from JSON)
+│   └── dog.router.ts          # Dog model (load and save dogs from JSON)
 │
 ├── routes
-│   ├── index.js               # index routes (init all routers)
-│   ├── main.router.js          # main router for '/'
-│   ├── auth.router.js         # Authentication routes (login, logout, register)
-│   ├── dog.router.js          # Dog routes (CRUD operations for dog profiles)
-│   └── user.model.js         # User routes (CRUD operations for users)
+│   ├── index.ts               # index routes (init all routers)
+│   ├── main.router.ts          # main router for '/'
+│   ├── auth.router.ts         # Authentication routes (login, logout, register)
+│   ├── dog.router.ts          # Dog routes (CRUD operations for dog profiles)
+│   └── user.model.ts         # User routes (CRUD operations for users)
 │
 ├── middlewares
-│   ├── dog.mw.js             # dog middleware
-│   ├── rateLimiter.mw.js     # Rate limiting middleware
+│   ├── dog.mw.אד             # dog middleware
+│   ├── rateLimiter.mw.ts     # Rate limiting middleware
 │   └── auth.mw.js            # auth middleware 
 │
 ├── config
@@ -73,9 +73,9 @@ The mock data was used extensively for testing user authentication, dog manageme
 │   └── sessionConfig.js      # Session handling using express-sessionConfig
 |
 ├── utils
-│   └── hashingPassword.js      # Helper functions for password hashing and validation
+│   └── hashingPassword.ts      # Helper functions for password hashing and validation
 │
-└── app.js              # Main app file that configures middleware and routes
+└── app.ts              # Main app file that configures middleware and routes
 ```
 
 
