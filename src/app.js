@@ -23,11 +23,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(generalLimiterMW);
 
+initAppRoutes(app);
+
 app.use((err, req, res, next) => {
     console.error(err);
     next(err);
 });
-
-initAppRoutes(app);
 
 module.exports = app;

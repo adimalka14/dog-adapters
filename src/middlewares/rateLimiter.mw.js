@@ -22,7 +22,7 @@ const registerLimiterMW = rateLimit({
 });
 
 module.exports = {
-    registerLimiterMW: registerLimiterMW,
-    loginLimiter: loginLimiterMW,
-    generalLimiter: generalLimiterMW,
+    registerLimiterMW,
+    loginLimiterMW,
+    generalLimiterMW,
 };
