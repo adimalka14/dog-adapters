@@ -1,14 +1,15 @@
-const { hashPassword } = require('../utils/hashingPassword');
-const {
-    findUserByMail,
-    loadUsersFromFile,
-    saveUsersToFile,
-} = require('../models/user.model');
-const passport = require('passport');
-const { v4: uuidv4 } = require('uuid');
+import { Request, Response, NextFunction } from 'express';
+import passport from 'passport';
+import { hashPassword } from '../utils/hashingPassword';
+import { getUserByEmail } from '../services/user.service';
+import { IUser } from '../interfaces/user.interface';
 
-const loginCtrl = async (req, res, next) => {
-    const { email, password } = req.body;
+export const loginCtrl = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+) => {
+    const { email, password } = req.body as IUser;
 
     if (!email || !password) {
         return res
@@ -16,7 +17,7 @@ const loginCtrl = async (req, res, next) => {
             .json({ message: 'Email and password are required' });
     }
 
-    passport.authenticate('local', (err, user, info) => {
+    passport.authenticate('local', (err, user: IUser, info: any) => {
         if (err) return next(err);
         if (!user) return res.status(401).json({ message: info.message });
 
@@ -27,15 +28,24 @@ const loginCtrl = async (req, res, next) => {
     })(req, res, next);
 };
 
-const logoutCtrl = async (req, res, next) => {
+export const logoutCtrl = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+) => {
     req.logout((err) => {
         if (err) return next(err);
         res.json({ message: 'Logged out successfully' });
     });
 };
 
-const registerCtrl = async (req, res, next) => {
-    const { first_name, last_name, email, gender, password } = req.body;
+export const registerCtrl = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+) => {
+    const { first_name, last_name, email, gender, password } =
+        req.body as IUser;
 
     if (!email || !password) {
         return res
@@ -43,7 +53,7 @@ const registerCtrl = async (req, res, next) => {
             .json({ message: 'Email and password are required' });
     }
 
-    const userExist = await findUserByMail(email);
+    const userExist = await getUserByEmail(email);
 
     if (userExist) {
         return res.status(409).json({
@@ -53,18 +63,13 @@ const registerCtrl = async (req, res, next) => {
     }
 
     const hashedPassword = await hashPassword(password);
-    const newUser = {
-        first_name,
-        last_name,
+    const newUser: IUser = {
+        first_name: first_name || '',
+        last_name: last_name || '',
         email,
-        gender,
+        gender: gender || '',
         password: hashedPassword,
-        id: uuidv4(),
     };
-
-    const users = await loadUsersFromFile();
-    users.push(newUser);
-    await saveUsersToFile(users);
 
     req.logIn(newUser, (err) => {
         if (err) {
@@ -74,10 +79,4 @@ const registerCtrl = async (req, res, next) => {
             .status(201)
             .json({ message: 'User registered successfully' });
     });
-};
-
-module.exports = {
-    loginCtrl,
-    logoutCtrl,
-    registerCtrl,
 };
