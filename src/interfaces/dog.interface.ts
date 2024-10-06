@@ -1,5 +1,5 @@
 export interface IDog {
-    id: string;
+    _id?: string;
     race?: string;
     gender?: string;
     age?: number;

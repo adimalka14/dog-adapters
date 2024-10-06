@@ -1,10 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 
-export async function ensureAuthenticatedMW(
-    req: Request,
-    res: Response,
-    next: NextFunction
-): Promise<void> {
+export async function ensureAuthenticatedMW(req: Request, res: Response, next: NextFunction): Promise<void> {
     if (req.isAuthenticated()) {
         return next();
     } else {

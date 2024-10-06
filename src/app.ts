@@ -1,5 +1,4 @@
 import express from 'express';
-import { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import bodyParser from 'body-parser';
@@ -25,10 +24,5 @@ app.use(passport.session());
 app.use(generalLimiterMW);
 
 initAppRoutes(app);
-
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-    console.error(err.stack);
-    next(err);
-});
 
 export default app;

@@ -1,12 +1,9 @@
 import { Router } from 'express';
-import {
-    validateDogBodyMW,
-    requiredDogBodyFieldMW,
-} from '../middlewares/dog.mw';
+import { validateDogBodyMW, requiredDogBodyFieldMW } from '../middlewares/dog.mw';
 import {
     getDogByIdCtrl,
     getFilteredDogsListByParamsCtrl,
-    addNewDogCtrl,
+    createNewDogCtrl,
     updateDogDetailsCtrl,
     deleteDogCtrl,
 } from '../controllers/dog.ctrl';
@@ -17,7 +14,7 @@ router.get('/:id', getDogByIdCtrl);
 
 router.get('/', getFilteredDogsListByParamsCtrl);
 
-router.post('/', validateDogBodyMW, requiredDogBodyFieldMW, addNewDogCtrl);
+router.post('/', validateDogBodyMW, requiredDogBodyFieldMW, createNewDogCtrl);
 
 router.put('/:id', validateDogBodyMW, updateDogDetailsCtrl);
 
