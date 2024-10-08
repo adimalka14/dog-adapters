@@ -1,28 +1,28 @@
 import { UserModel } from '../models/user.model';
-import { hashPassword } from '../utils/helpers';
 import { IUser } from '../interfaces/user.interface';
 
-export async function getUserById(id: string): Promise<IUser | undefined> {
-    return undefined;
+export async function getUserById(id: string): Promise<IUser | null> {
+    return UserModel.findById(id);
 }
 
-export async function getUserByEmail(
-    username: string
-): Promise<IUser | undefined> {
-    return undefined;
+export async function getUserByEmail(email: string): Promise<IUser | null> {
+    return UserModel.findOne({ email });
 }
 
-export async function createUser(
-    username: string,
-    email: string,
-    password: string
-): Promise<IUser | undefined> {
-    return await new UserModel({
-        username,
-        email,
-        password,
-        isActive: true,
-    }).save();
+export async function createUser(newUser: Partial<IUser>): Promise<IUser | null> {
+    return await new UserModel({ ...newUser }).save();
 }
 
-export async function deleteUser(username: string): Promise<void> {}
+export async function deleteUser(id: string): Promise<boolean> {
+    try {
+        const result = await UserModel.findByIdAndUpdate(id, { $set: { isActive: false } });
+        return result !== null;
+    } catch (error) {
+        console.error(`Error deleting user with id ${id}:`, error);
+        return false;
+    }
+}
+
+export async function updateUserDetails(id: string, details: Partial<IUser>): Promise<IUser | null> {
+    return UserModel.findByIdAndUpdate(id, { $set: details }, { new: true });
+}

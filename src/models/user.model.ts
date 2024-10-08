@@ -17,6 +17,8 @@ const userSchema = new Schema<IUser>(
             required: [true, 'you must provide a password'],
             minlength: 4,
         },
+        isAdmin: { type: Boolean, default: false },
+        isActive: { type: Boolean, default: true },
     },
     { timestamps: true }
 );

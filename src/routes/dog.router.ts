@@ -1,26 +1,25 @@
 import { Router } from 'express';
-import {
-    validateDogBodyMW,
-    requiredDogBodyFieldMW,
-} from '../middlewares/dog.mw';
+import { validateDogBodyMW, requiredDogBodyFieldMW, validateAndConvertQueryMW } from '../middlewares/dog.mw';
 import {
     getDogByIdCtrl,
     getFilteredDogsListByParamsCtrl,
-    addNewDogCtrl,
+    createNewDogCtrl,
     updateDogDetailsCtrl,
     deleteDogCtrl,
 } from '../controllers/dog.ctrl';
+import { ensureAuthenticatedMW } from '../middlewares/authentication.mw';
 
 const router = Router();
 
 router.get('/:id', getDogByIdCtrl);
 
-router.get('/', getFilteredDogsListByParamsCtrl);
+router.get('/', validateAndConvertQueryMW, getFilteredDogsListByParamsCtrl);
 
-router.post('/', validateDogBodyMW, requiredDogBodyFieldMW, addNewDogCtrl);
+router.post('/', ensureAuthenticatedMW, validateDogBodyMW, requiredDogBodyFieldMW, createNewDogCtrl);
 
-router.put('/:id', validateDogBodyMW, updateDogDetailsCtrl);
+// todo add validate owner
+router.put('/:id', ensureAuthenticatedMW, validateDogBodyMW, updateDogDetailsCtrl);
 
-router.delete('/:id', deleteDogCtrl);
+router.delete('/:id', ensureAuthenticatedMW, deleteDogCtrl);
 
 export default router;

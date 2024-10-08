@@ -12,7 +12,7 @@ passport.use(
         },
         async (email: string, password: string, done) => {
             try {
-                const user = await getUserByEmail(email);
+                const user: IUser | null = await getUserByEmail(email);
 
                 if (!user) {
                     return done(null, false, { message: 'User not found' });
@@ -31,8 +31,8 @@ passport.use(
     )
 );
 
-passport.serializeUser((user: IUser, done) => {
-    done(null, user.email);
+passport.serializeUser((user, done) => {
+    done(null, (user as IUser).email);
 });
 
 passport.deserializeUser(async (email: string, done) => {
