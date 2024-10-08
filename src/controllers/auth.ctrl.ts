@@ -37,7 +37,7 @@ export const registerCtrl = async (req: Request, res: Response, next: NextFuncti
     }
 
     const hashedPassword = await hashPassword(password);
-    const newUser: IUser = {
+    const newUser: Partial<IUser> = {
         first_name: first_name || '',
         last_name: last_name || '',
         email,

@@ -1,5 +1,6 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response, NextFunction, query } from 'express';
 import { validate as uuidValidate } from 'uuid';
+import { IDogQuery } from '../interfaces/dog.interface';
 
 export function validateDogBodyMW(req: Request, res: Response, next: NextFunction): void {
     let { id, race, gender, age, vaccines, behave, image, name, status } = req.body;
@@ -68,5 +69,32 @@ export function requiredDogBodyFieldMW(req: Request, res: Response, next: NextFu
         return;
     }
 
+    next();
+}
+
+export function validateAndConvertQueryMW(req: Request, res: Response, next: NextFunction): void {
+    const dogParams: IDogQuery = {
+        ...(req.query.race !== undefined && { race: req.query.race as string }),
+        ...(req.query.gender !== undefined && { gender: req.query.gender as string }),
+        ...(req.query.minAge !== undefined && { minAge: parseInt(req.query.minAge as string) }),
+        ...(req.query.maxAge !== undefined && { maxAge: parseInt(req.query.maxAge as string) }),
+        ...(req.query.name !== undefined && { name: req.query.name as string }),
+        ...(req.query.status !== undefined && { status: req.query.status as string }),
+        page: req.query.page !== undefined ? parseInt(req.query.page as string) : 1,
+        itemsPerPage: req.query.itemsPerPage !== undefined ? parseInt(req.query.itemsPerPage as string) : 10,
+    } as IDogQuery;
+
+    if (Number.isNaN(dogParams.page) || dogParams.page! <= 0) {
+        return next('Invalid page');
+    }
+
+    if (Number.isNaN(dogParams.itemsPerPage) || dogParams.itemsPerPage! <= 0 || dogParams.itemsPerPage! > 100) {
+        return next('items per page must be max 100');
+    }
+
+    if (Number.isNaN(dogParams.minAge)) return next('minAge must be a positive number');
+    if (Number.isNaN(dogParams.maxAge)) return next('maxAge must be a positive number');
+
+    req.queryFilters = dogParams;
     next();
 }

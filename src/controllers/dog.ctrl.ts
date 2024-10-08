@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { IDog } from '../interfaces/dog.interface';
+import { IDog, IDogQuery } from '../interfaces/dog.interface';
 import { getDogByID, filterDogs, createNewDog, updateDogInDB, deleteDogByID } from '../services/dog.service';
 
 export async function getDogByIdCtrl(req: Request, res: Response, next: NextFunction): Promise<void> {
@@ -14,17 +14,7 @@ export async function getDogByIdCtrl(req: Request, res: Response, next: NextFunc
 
 export async function getFilteredDogsListByParamsCtrl(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
-        const dogParams: IDog = {
-            race: (req.query.race as string) ?? undefined,
-            gender: (req.query.gender as string) ?? undefined,
-            age: req.query.age ? parseInt(req.query.age as string) : undefined,
-            vaccines: req.query.vaccines ? parseInt(req.query.vaccines as string) : undefined,
-            behave: req.query.behave ? (req.query.behave as string).split(',') : undefined,
-            name: (req.query.name as string) ?? undefined,
-            status: (req.query.status as string) ?? undefined,
-        };
-
-        const filteredDogs: IDog[] = await filterDogs(dogParams);
+        const filteredDogs = await filterDogs(req.queryFilters as IDogQuery);
 
         res.status(200).json(filteredDogs);
     } catch (error) {

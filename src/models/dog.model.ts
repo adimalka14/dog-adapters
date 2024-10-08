@@ -10,6 +10,7 @@ const dogSchema = new Schema<IDog>(
         behave: [String],
         name: String,
         status: String,
+        owner: String,
     },
     { timestamps: true }
 );
