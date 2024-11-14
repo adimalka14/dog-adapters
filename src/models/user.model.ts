@@ -1,5 +1,6 @@
 import { Schema, model, Model, Document } from 'mongoose';
 import { IUser } from '../interfaces/user.interface';
+import { hashPassword } from '../utils/hashingPassword';
 
 const userSchema = new Schema<IUser>(
     {
@@ -22,6 +23,20 @@ const userSchema = new Schema<IUser>(
     },
     { timestamps: true }
 );
+
+userSchema.pre('save', async function (next) {
+    const user = this as Document & IUser;
+    if (!user.isModified('password')) {
+        return next();
+    }
+
+    try {
+        user.password = await hashPassword(user.password);
+        next();
+    } catch (err) {
+        next(err as Error);
+    }
+});
 
 userSchema.index({ email: 1 });
 

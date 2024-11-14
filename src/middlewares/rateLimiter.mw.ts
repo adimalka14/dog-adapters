@@ -17,6 +17,6 @@ export const loginLimiterMW = rateLimit({
 
 export const registerLimiterMW = rateLimit({
     windowMs: hour,
-    max: 3,
+    max: 4,
     message: 'Too many registration attempts, please try again later',
 });

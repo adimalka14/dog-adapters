@@ -3,13 +3,14 @@ import { PipelineStage } from 'mongoose';
 
 export function filterDogsAggregation(params: IDogQuery): PipelineStage[] {
     const { page = 1, itemsPerPage = 10 } = params;
+
     return [
         {
             $match: {
                 ...((params.maxAge !== undefined || params.minAge !== undefined) && {
                     age: {
-                        ...(params.minAge && { $gte: +params.minAge }),
-                        ...(params.maxAge && { $lte: +params.maxAge }),
+                        ...(params.minAge !== undefined && { $gte: +params.minAge }),
+                        ...(params.maxAge !== undefined && { $lte: +params.maxAge }),
                     },
                 }),
                 ...(params.name !== undefined && {
@@ -50,7 +51,12 @@ export function filterDogsAggregation(params: IDogQuery): PipelineStage[] {
                 ],
             },
         },
-        { $unwind: '$owner' },
+        {
+            $unwind: {
+                path: '$owner',
+                preserveNullAndEmptyArrays: true,
+            },
+        },
         {
             $project: {
                 age: 1,
@@ -58,7 +64,7 @@ export function filterDogsAggregation(params: IDogQuery): PipelineStage[] {
                 race: 1,
                 gender: 1,
                 owner: {
-                    fullName: '$owner.first_name $owner.last_name',
+                    fullName: { $concat: ['$owner.first_name', ' ', '$owner.last_name'] },
                     email: '$owner.email',
                 },
             },
@@ -86,7 +92,7 @@ export function filterDogsAggregation(params: IDogQuery): PipelineStage[] {
                             _id: 0,
                             page: 1,
                             totalItems: 1,
-                            itemsPerPage: 10,
+                            itemsPerPage: 1, // Use the dynamic value
                             totalPages: { $ceil: '$totalPages' },
                         },
                     },
