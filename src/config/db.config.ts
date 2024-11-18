@@ -1,15 +1,13 @@
 import mongoose from 'mongoose';
 import { MONGODB_URI } from '../utils/env-var';
+import logger from '../utils/logger';
 
-export const connectDb = async (): Promise<void> => {
-    if (!MONGODB_URI) {
-        throw new Error('MongoDB URI is missing');
-    }
-
+export const connectDb = async (uri = MONGODB_URI): Promise<void> => {
     try {
-        await mongoose.connect(MONGODB_URI);
-        console.log(`MongoDB Connected`);
+        await mongoose.connect(uri as string);
+        logger.info('SYSTEM', `MongoDB Connected`, { uri });
     } catch (err) {
+        logger.error('SYSTEM', `MongoDB Connection Error`, { uri, err });
         throw new Error('Failed to connect to MongoDB');
     }
 };

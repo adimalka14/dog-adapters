@@ -34,9 +34,9 @@ export async function createNewDogCtrl(req: Request, res: Response, next: NextFu
             status: 'available',
         } as IDog; // to ignore undefined params
 
-        await createNewDog(newDog);
+        const dog = (await createNewDog(newDog)) as unknown as IDog;
 
-        res.status(201).json(newDog);
+        res.status(201).json(dog);
     } catch (error) {
         next(error);
     }
@@ -58,7 +58,11 @@ export async function updateDogDetailsCtrl(req: Request, res: Response, next: Ne
 
         const result = await updateDogInDB(dogId, updatedDogData);
 
-        res.status(200).json(result);
+        if (result === null) {
+            res.status(404).json({ message: 'Dog not found' });
+        } else {
+            res.status(200).json(result as unknown as IDog);
+        }
     } catch (error) {
         next(error);
     }

@@ -24,7 +24,7 @@ export const filterDogs = async (params: IDogQuery): Promise<IFilterResult> => {
     const { page = 1, itemsPerPage = 10 } = params;
     const aggregation: PipelineStage[] = filterDogsAggregation(params);
     const results: any = await DogModel.aggregate(aggregation);
-    // todo
+
     if (!Array.isArray(results) || results.length === 0) {
         return {
             pagination: { page, totalItems: 0, itemsPerPage, totalPages: 0 },

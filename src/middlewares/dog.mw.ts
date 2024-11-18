@@ -1,53 +1,55 @@
 import { Request, Response, NextFunction, query } from 'express';
 import { validate as uuidValidate } from 'uuid';
-import { IDogQuery } from '../interfaces/dog.interface';
+import { IDog, IDogQuery } from '../interfaces/dog.interface';
 
 export function validateDogBodyMW(req: Request, res: Response, next: NextFunction): void {
-    let { id, race, gender, age, vaccines, behave, image, name, status } = req.body;
+    const { id, race, gender, age, vaccines, behave, name, status } = req.body;
 
     if (id !== undefined && !uuidValidate(id)) {
-        res.status(400).json({ message: 'Invalid or missing id' });
+        res.status(400).json({ message: 'Invalid id' });
         return;
     }
 
-    if (!race || typeof race !== 'string') {
-        res.status(400).json({ message: 'Invalid or missing race' });
+    if (race !== undefined && typeof race !== 'string') {
+        res.status(400).json({ message: 'Invalid race' });
         return;
     }
 
-    if (!gender || !['male', 'female'].includes(gender.toLowerCase())) {
-        res.status(400).json({ message: 'Invalid or missing gender' });
+    if (gender !== undefined) {
+        if (typeof gender !== 'string' || !['male', 'female'].includes(gender.toLowerCase())) {
+            res.status(400).json({ message: 'Invalid gender' });
+            return;
+        }
+        req.body.gender = gender.toLowerCase();
+    }
+
+    if (age !== undefined && (typeof age !== 'number' || age <= 0)) {
+        res.status(400).json({ message: 'Invalid age' });
         return;
     }
 
-    req.body.gender = gender.toLowerCase();
-
-    if (age === undefined || typeof age !== 'number' || age <= 0) {
-        res.status(400).json({ message: 'Invalid or missing age' });
+    if (vaccines !== undefined && (typeof vaccines !== 'number' || vaccines < 0)) {
+        res.status(400).json({ message: 'Invalid vaccines' });
         return;
     }
 
-    if (vaccines === undefined || typeof vaccines !== 'number' || vaccines < 0) {
-        res.status(400).json({ message: 'Invalid or missing vaccines' });
+    if (behave !== undefined && (!Array.isArray(behave) || behave.some((b) => typeof b !== 'string'))) {
+        res.status(400).json({ message: 'Invalid behave' });
         return;
     }
 
-    if (!Array.isArray(behave) || behave.some((b) => typeof b !== 'string')) {
-        res.status(400).json({ message: 'Invalid or missing behave' });
+    if (name !== undefined && typeof name !== 'string') {
+        res.status(400).json({ message: 'Invalid name' });
         return;
     }
 
-    if (!name || typeof name !== 'string') {
-        res.status(400).json({ message: 'Invalid or missing name' });
-        return;
+    if (status !== undefined) {
+        if (typeof status !== 'string' || !['available', 'adopted', 'pending'].includes(status.toLowerCase())) {
+            res.status(400).json({ message: 'Invalid status' });
+            return;
+        }
+        req.body.status = status.toLowerCase();
     }
-
-    if (!status || !['available', 'adopted', 'pending'].includes(status.toLowerCase())) {
-        res.status(400).json({ message: 'Invalid or missing status' });
-        return;
-    }
-
-    req.body.status = status.toLowerCase();
 
     next();
 }

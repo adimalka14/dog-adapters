@@ -36,13 +36,12 @@ export const registerCtrl = async (req: Request, res: Response, next: NextFuncti
         return res.status(400).json({ message: 'Email and password are required' });
     }
 
-    const hashedPassword = await hashPassword(password);
     const newUser: Partial<IUser> = {
         first_name: first_name || '',
         last_name: last_name || '',
         email,
         gender: gender || '',
-        password: hashedPassword,
+        password,
     };
 
     try {
@@ -52,7 +51,7 @@ export const registerCtrl = async (req: Request, res: Response, next: NextFuncti
             if (err) {
                 return next(err);
             }
-            return res.status(201).json({ userid: result?._id, message: 'User registered successfully' });
+            return res.status(201).json({ userId: result?._id, message: 'User registered successfully' });
         });
     } catch (err: any) {
         if (err.code === 11000) {
