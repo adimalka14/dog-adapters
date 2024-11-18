@@ -26,7 +26,7 @@ describe('users', () => {
 
     afterAll(async () => {
         await UserModel.findByIdAndDelete(user._id);
-        await UserModel.deleteMany({});
+        //await UserModel.deleteMany({});
     });
 
     describe(`GET users/:id`, () => {
