@@ -106,7 +106,9 @@ The mock data was used extensively for testing user authentication, dog manageme
 ---
 
 ## Installation
-
+### Requirements
+- Node.js version 20.12+
+- MongoDB version 7.0+
 1. Clone the repository:
 
    ```bash
@@ -123,9 +125,15 @@ The mock data was used extensively for testing user authentication, dog manageme
     ```bash
     SESSION_SECRET=your_secret_key
 4. Run the application:
-
+   build of typescript and run js compiled project
     ```bash
-    npm start
+    npm run start
+
+- or
+    runs typescript code for development with nodemon
+   ```bash
+    npm run dev
+      
 
 The app will run on http://localhost:3000.
 
