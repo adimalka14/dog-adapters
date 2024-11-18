@@ -145,13 +145,14 @@ To explore and test the API endpoints:
 *(Replace `localhost` and the port with your server's host and port if different.)*
 
 #### This documentation provides an interactive interface for testing and exploring all available endpoints.
-### Swagger Preview
+## Swagger Preview
 
 Below is a preview of the Swagger API documentation:
 
-<div style="max-height: 400px; max-width: 100%; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
-    <img src="swagger-full-page.png" alt="Swagger API Documentation" style="width: 100%;">
+<div style="max-height: 400px; overflow-y: auto; border: 1px solid #ccc;">
+  <img src="swagger-full-page.png" alt="Swagger API Documentation" style="width: 100%;">
 </div>
+
 
 ---
 ## Testing
