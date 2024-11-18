@@ -149,8 +149,8 @@ To explore and test the API endpoints:
 
 Below is a preview of the Swagger API documentation:
 
-<div style="max-height: 400px; overflow-y: auto; border: 1px solid #ccc;">
-  <img src="swagger-full-page.png" alt="Swagger API Documentation" style="width: 100%;">
+<div style="max-height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
+    <img src="swagger-full-page.png" alt="Swagger API Documentation" style="width: 100%;">
 </div>
 
 
