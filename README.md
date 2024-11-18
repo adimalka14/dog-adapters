@@ -145,7 +145,6 @@ To explore and test the API endpoints:
 *(Replace `localhost` and the port with your server's host and port if different.)*
 
 #### This documentation provides an interactive interface for testing and exploring all available endpoints.
----
 ![צילום מסך 2024-11-18 184856](https://github.com/user-attachments/assets/265a58e9-1287-4df9-a099-909dc8737b26)
 ![צילום מסך 2024-11-18 184910](https://github.com/user-attachments/assets/25ac4f47-ccfe-4ad1-8c35-27ee6a96c0b3)
 ![צילום מסך 2024-11-18 184948](https://github.com/user-attachments/assets/c67bf767-26f5-4a94-868d-af558a07fb4a)
