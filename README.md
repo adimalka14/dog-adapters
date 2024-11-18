@@ -35,7 +35,11 @@ The **Dog Adapters** project is a web-based application for managing the dog ado
 - **Morgan**: HTTP request logging during development.
 - **Dotenv**: Manage sensitive configurations through environment variables.
 - **Prettier**: Enforce consistent code formatting.
-
+### Another tools
+- **aggregations**: filter dogs by query which populate dogs by owner.
+- **pagination**: pagination for data aggregations.
+- **status code**: return the correct status code for http requast response.
+- **postman** send api request and check response.
 ---
 
 ## Mock Data
@@ -125,7 +129,7 @@ The mock data was used extensively for testing user authentication, dog manageme
     ```bash
     SESSION_SECRET=your_secret_key
 4. Run the application:
--build of typescript and run js compiled project
+- build of typescript and run js compiled project
     ```bash
     npm run start
 
