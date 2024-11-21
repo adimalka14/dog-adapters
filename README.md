@@ -152,7 +152,7 @@ The project includes tests for key functionalities, including:
    ```bash
    npm test
 ```
-Test Coverage
+### Test Coverage
 The current test coverage for the project is as follows:
 ![צילום מסך 2024-11-21 183724](https://github.com/user-attachments/assets/e640a60c-c6ff-4bdd-8c34-a9eb699053cc)
 
