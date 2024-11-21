@@ -122,12 +122,7 @@ The mock data was used extensively for testing user authentication, dog manageme
 
    ```bash
    npm install
-   
-3. Create .env file in the root directory and set the following variables:
-    
-    ```bash
-    SESSION_SECRET=your_secret_key
-4. Run the application:
+3. Run the application:
 - build of typescript and run js compiled project
    ```bash
     npm run build
