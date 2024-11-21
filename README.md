@@ -12,11 +12,11 @@ The **Dog Adapters** project is a web-based application for managing the dog ado
 
 - **User Authentication**: Secure login, logout, and registration using `Passport.js` with `LocalStrategy`.
 - **User Management**: Full CRUD operations for user profiles
-- **Dog Management**:  Full CRUD functionality for dog profiles, including fields like race, age, gender, behavior, and vaccination status.
-- **Search and Filtering**: Find dogs by attributes such as breed, age, or availability.
+- **Dog Management**:  Full CRUD functionality for dog profiles.
+- **Search and Filtering**: Find dogs by attributes.
 - **Session Management**: User sessions handled using `express-sessionConfig`.
-- **API Documentation**: Swagger integration for easy API exploration.
-- **Logging**: Winston for structured logging and debugging.
+- **API Documentation**: `Swagger` integration for easy API exploration.
+- **Logging**: `Winston` for structured logging and debugging.
 - **Testing**: Comprehensive tests for API endpoints using Jest and Supertest.
 ---
 
@@ -32,12 +32,11 @@ The **Dog Adapters** project is a web-based application for managing the dog ado
 - **Jest**: Testing framework for API and functionality testing.
 - **Swagger**: API documentation and testing interface.
 - **Winston**: Logging library for error and activity tracking.
-- **Morgan**: HTTP request logging during development.
-- **Dotenv**: Manage sensitive configurations through environment variables.
-- **Prettier**: Enforce consistent code formatting.
-### Another tools
 - **aggregations**: filter dogs by query which populate dogs by owner.
 - **pagination**: pagination for data aggregations.
+### Another tools
+- **Dotenv**: Manage sensitive configurations through environment variables.
+- **Prettier**: Enforce consistent code formatting.
 - **status code**: return the correct status code for http requast response.
 - **postman** send api request and check response.
 ---
@@ -141,6 +140,21 @@ The mock data was used extensively for testing user authentication, dog manageme
 The app will run on http://localhost:3000.
 
 ---
+---
+## Testing
+The project includes tests for key functionalities, including:
+- User authentication and session management.
+- CRUD operations for users and dogs.
+- Validation and error handling.
+  
+ To run the tests:
+
+   ```bash
+   npm test
+```
+Test Coverage
+The current test coverage for the project is as follows:
+![צילום מסך 2024-11-21 183724](https://github.com/user-attachments/assets/e640a60c-c6ff-4bdd-8c34-a9eb699053cc)
 
 ## API Documentation
 
@@ -163,22 +177,3 @@ Below is a preview of the Swagger API documentation:
 <div style="max-height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
     <img src="swagger-full-page.png" alt="Swagger API Documentation" style="width: 100%;">
 </div>
-
-
----
-## Testing
-The project includes tests for key functionalities, including:
-- User authentication and session management.
-- CRUD operations for users and dogs.
-- Validation and error handling.
-  
- To run the tests:
-
-   ```bash
-   npm test
-```
----
-## Next Steps
-- Integration with cloud storage for dog images.
-- Real-time notifications for adoption status changes.
-- Enhanced search filters and recommendations.
