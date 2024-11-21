@@ -129,6 +129,9 @@ The mock data was used extensively for testing user authentication, dog manageme
     SESSION_SECRET=your_secret_key
 4. Run the application:
 - build of typescript and run js compiled project
+   ```bash
+    npm run build
+   ```
     ```bash
     npm run start
 
