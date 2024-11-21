@@ -6,12 +6,13 @@ import { IUser } from '../../interfaces/user.interface';
 describe('Authentication', () => {
     let user: IUser;
 
-    beforeAll(async () => {
-        const details = { email: '12345@test.com', password: '1234' };
+    beforeEach(async () => {
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
+        const details = { email: `user_${uniqueSuffix}@test.com`, password: '1234' };
         user = await new UserModel(details).save();
     });
 
-    afterAll(async () => {
+    afterEach(async () => {
         await UserModel.findByIdAndDelete(user._id);
     });
 
@@ -52,21 +53,21 @@ describe('Authentication', () => {
 
     describe('POST auth/register', () => {
         it('register successfully', async () => {
+            const uniqueSuffix = Math.random().toString(36).substring(2, 15);
             const res = await request(app)
                 .post('/auth/register')
-                .send({ email: 'test@test.com', password: '1111' })
+                .send({ email: `newuser_${uniqueSuffix}@test.com`, password: '1111' })
                 .expect(201);
 
             expect(res.body).toHaveProperty('message', 'User registered successfully');
 
-            // Clean up: Delete the user created during the test
             await UserModel.findByIdAndDelete(res.body.userId);
         });
 
-        it('User already exist', async () => {
+        it('User already exists', async () => {
             const res = await request(app)
                 .post('/auth/register')
-                .send({ email: '12345@test.com', password: '1111' })
+                .send({ email: user.email, password: '1111' })
                 .expect(409);
 
             expect(res.body).toHaveProperty('message', 'Email already exists, please register with a different email');

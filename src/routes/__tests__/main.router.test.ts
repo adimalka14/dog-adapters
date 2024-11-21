@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from 'uuid';
 import request from 'supertest';
 import app from '../../app';
 

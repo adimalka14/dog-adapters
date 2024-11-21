@@ -1,13 +1,22 @@
-import { connectDb } from '../config/db.config';
 import mongoose from 'mongoose';
+import { MongoMemoryServer } from 'mongodb-memory-server';
+import { NextFunction } from 'express';
+
+jest.mock('express-rate-limit', () => {
+    return jest.fn(() => (req: Request, res: Response, next: NextFunction) => next());
+});
+
+let mongoServer: MongoMemoryServer;
 
 beforeAll(async () => {
-    await connectDb();
+    mongoServer = await MongoMemoryServer.create();
+    const uri: string = mongoServer.getUri();
+
+    await mongoose.connect(uri);
 });
 
 afterAll(async () => {
-    if (mongoose.connection && mongoose.connection.db) {
-        await mongoose.connection.db.dropDatabase();
-    }
-    await mongoose.connection.close();
+    await mongoose.connection.dropDatabase();
+    await mongoose.disconnect();
+    await mongoServer.stop();
 });

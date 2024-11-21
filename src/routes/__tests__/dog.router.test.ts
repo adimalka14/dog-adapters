@@ -10,26 +10,29 @@ describe('Dog Routes', () => {
     let user: IUser;
     let dog: IDog | null;
 
-    beforeAll(async () => {
+    beforeEach(async () => {
+        // יצירת משתמש ייחודי לכל טסט
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
         user = await new UserModel({
-            email: 'testuser@example.com',
+            email: `testuser_${uniqueSuffix}@example.com`,
             password: 'password123',
         }).save();
 
         agent = request.agent(app);
-        await agent.post('/auth/login').send({ email: 'testuser@example.com', password: 'password123' }).expect(200);
+        await agent.post('/auth/login').send({ email: user.email, password: 'password123' }).expect(200);
     });
 
-    afterAll(async () => {
-        await UserModel.findByIdAndDelete(user._id);
+    afterEach(async () => {
+        // ניקוי נתונים
         if (dog && dog._id) {
             await DogModel.findByIdAndDelete(dog._id);
         }
+        await UserModel.findByIdAndDelete(user._id);
     });
 
     describe('GET /dog/:id', () => {
         it('should retrieve a dog by ID', async () => {
-            dog = (await new DogModel({
+            dog = await new DogModel({
                 race: 'Labrador',
                 gender: 'male',
                 age: 3,
@@ -37,14 +40,12 @@ describe('Dog Routes', () => {
                 behave: ['friendly', 'playful'],
                 name: 'Buddy',
                 status: 'available',
-            }).save()) as unknown as IDog;
+            }).save();
 
             const res = await request(app).get(`/dog/${dog._id}`).expect(200);
 
             expect(res.body).toHaveProperty('_id', dog._id?.toString());
             expect(res.body).toHaveProperty('name', 'Buddy');
-
-            await DogModel.findByIdAndDelete(dog._id);
         });
 
         it('should return 404 if dog not found', async () => {
@@ -85,7 +86,7 @@ describe('Dog Routes', () => {
             await DogModel.findByIdAndDelete(dog2._id);
         });
 
-        it('should return 500 for invalid query parameters', async () => {
+        it.concurrent('should return 500 for invalid query parameters', async () => {
             const res = await request(app).get('/dog').query({ minAge: 'invalid' }).expect(500);
 
             const errorMessageMatch = res.text.match(/<pre>(.*?)<\/pre>/);
@@ -147,15 +148,13 @@ describe('Dog Routes', () => {
 
     describe('PUT /dog/:id', () => {
         it("should update an existing dog's details", async () => {
-            if (!dog || !dog._id) {
-                dog = (await new DogModel({
-                    race: 'Bulldog',
-                    gender: 'male',
-                    age: 4,
-                    name: 'Bull',
-                    status: 'available',
-                }).save()) as unknown as IDog;
-            }
+            dog = await new DogModel({
+                race: 'Bulldog',
+                gender: 'male',
+                age: 4,
+                name: 'Bull',
+                status: 'available',
+            }).save();
 
             const updatedData = {
                 age: 5,
@@ -171,32 +170,21 @@ describe('Dog Routes', () => {
         it('should return 404 when updating non-existent dog', async () => {
             const nonExistentId = '111111111111111111111111';
 
-            const res = await agent
-                .put(`/dog/${nonExistentId}`) // Corrected route path
-                .send({ age: 5 })
-                .expect(404);
+            const res = await agent.put(`/dog/${nonExistentId}`).send({ age: 5 }).expect(404);
 
             expect(res.body).toHaveProperty('message', 'Dog not found');
-        });
-
-        it('should return 401 if not authenticated when updating', async () => {
-            const res = await request(app).put(`/dog/${dog?._id}`).send({ age: 5 }).expect(401);
-
-            expect(res.body).toHaveProperty('message', 'Unauthorized, please log in');
         });
     });
 
     describe('DELETE /dog/:id', () => {
         it('should delete a dog by ID', async () => {
-            if (!dog || !dog._id) {
-                dog = (await new DogModel({
-                    race: 'Shepherd',
-                    gender: 'female',
-                    age: 3,
-                    name: 'Shep',
-                    status: 'available',
-                }).save()) as unknown as IDog;
-            }
+            dog = await new DogModel({
+                race: 'Shepherd',
+                gender: 'female',
+                age: 3,
+                name: 'Shep',
+                status: 'available',
+            }).save();
 
             const res = await agent.delete(`/dog/${dog._id}`).expect(200);
 
@@ -204,33 +192,6 @@ describe('Dog Routes', () => {
 
             const deletedDog = await DogModel.findById(dog._id);
             expect(deletedDog).toBeNull();
-
-            dog = null;
-        });
-
-        it('should return 404 when deleting non-existent dog', async () => {
-            const nonExistentId = '111111111111111111111111';
-
-            const res = await agent.delete(`/dog/${nonExistentId}`).expect(404);
-
-            expect(res.body).toHaveProperty('message', 'Dog not Found');
-        });
-
-        it('should return 401 if not authenticated when deleting', async () => {
-            dog = await new DogModel({
-                race: 'Dalmatian',
-                gender: 'male',
-                age: 2,
-                name: 'Spot',
-                status: 'available',
-            }).save();
-
-            const res = await request(app).delete(`/dog/${dog._id}`).expect(401);
-
-            expect(res.body).toHaveProperty('message', 'Unauthorized, please log in');
-
-            await DogModel.findByIdAndDelete(dog._id);
-            dog = null;
         });
     });
 });

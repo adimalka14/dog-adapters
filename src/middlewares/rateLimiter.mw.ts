@@ -5,7 +5,7 @@ const minute = 60 * 1000;
 
 export const generalLimiterMW = rateLimit({
     windowMs: 15 * minute,
-    max: 200,
+    max: 1500,
     message: 'Too many requests, please try again later',
 });
 

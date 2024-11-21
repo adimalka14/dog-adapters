@@ -4,28 +4,27 @@ import mongoose from 'mongoose';
 import { UserModel } from '../../models/user.model';
 
 describe('UserService', () => {
-    beforeAll(async () => {
+    beforeEach(async () => {
         await UserModel.deleteMany({});
     });
 
-    afterAll(async () => {
+    afterEach(async () => {
         await UserModel.deleteMany({});
     });
 
     test('create user - good case', async () => {
-        const userData = { email: 'test@gmail.com', password: '123456' };
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
+        const userData = { email: `test_${uniqueSuffix}@gmail.com`, password: '123456' };
 
         const res = (await createUser(userData)) as IUser;
 
         expect(res).toHaveProperty('email', userData.email);
-
-        expect(res.password).not.toBe(userData.password);
-
+        expect(res.password).not.toBe(userData.password); // בדיקה שהסיסמה מוצפנת
         expect(res).toHaveProperty('_id');
     });
 
     test('create user - bad case', async () => {
-        const userData = { email: 'test@gmail.com' };
+        const userData = { email: 'test@gmail.com' }; // חסר שדה password
         try {
             await createUser(userData);
         } catch (error) {
@@ -36,7 +35,8 @@ describe('UserService', () => {
     });
 
     test('getUserById - should return user by ID', async () => {
-        const userData = { email: 'user@example.com', password: 'password123' };
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
+        const userData = { email: `user_${uniqueSuffix}@example.com`, password: 'password123' };
         const createdUser = await createUser(userData);
 
         const foundUser = await getUserById(createdUser?._id as string);
@@ -45,7 +45,8 @@ describe('UserService', () => {
     });
 
     test('getUserByEmail - should return user by email', async () => {
-        const userData = { email: 'findme@example.com', password: 'password123' };
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
+        const userData = { email: `findme_${uniqueSuffix}@example.com`, password: 'password123' };
         await createUser(userData);
 
         const foundUser = await getUserByEmail(userData.email);
@@ -54,10 +55,11 @@ describe('UserService', () => {
     });
 
     test('updateUserDetails - should update user details', async () => {
-        const userData = { email: 'update@example.com', password: 'password123' };
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
+        const userData = { email: `update_${uniqueSuffix}@example.com`, password: 'password123' };
         const createdUser = await createUser(userData);
 
-        const updatedDetails = { email: 'updated@example.com' };
+        const updatedDetails = { email: `updated_${uniqueSuffix}@example.com` };
         const updatedUser = await updateUserDetails(createdUser?._id as string, updatedDetails);
 
         expect(updatedUser).not.toBeNull();
@@ -65,7 +67,8 @@ describe('UserService', () => {
     });
 
     test('deleteUser - should deactivate user', async () => {
-        const userData = { email: 'deactivate@example.com', password: 'password123' };
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
+        const userData = { email: `deactivate_${uniqueSuffix}@example.com`, password: 'password123' };
         const createdUser = await createUser(userData);
 
         const deleteResult = await deleteUser(createdUser?._id as string);

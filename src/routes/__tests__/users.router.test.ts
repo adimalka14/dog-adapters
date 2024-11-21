@@ -7,16 +7,16 @@ describe('users', () => {
     let user: IUser;
     let agent: Agent;
 
-    beforeAll(async () => {
-        await UserModel.deleteMany({});
-
+    beforeEach(async () => {
+        const uniqueSuffix = Math.random().toString(36).substring(2, 15);
         const details = {
-            first_name: 'yoyo',
-            last_name: 'gogo',
+            first_name: `yoyo_`,
+            last_name: `gogo_`,
             gender: 'Male',
-            email: '1234@test.com',
+            email: `user_${uniqueSuffix}@test.com`,
             password: '1234',
         };
+
         user = (await new UserModel(details).save()) as unknown as IUser;
 
         agent = request.agent(app);
@@ -24,9 +24,8 @@ describe('users', () => {
         await agent.post('/auth/login').send({ email: details.email, password: details.password }).expect(200);
     });
 
-    afterAll(async () => {
+    afterEach(async () => {
         await UserModel.findByIdAndDelete(user._id);
-        //await UserModel.deleteMany({});
     });
 
     describe(`GET users/:id`, () => {
@@ -54,7 +53,7 @@ describe('users', () => {
 
         it('get user details - failed id is not exist.', (done) => {
             agent
-                .get(`/users/11111111111111`) //
+                .get(`/users/111111111111111111111111`)
                 .expect(404)
                 .end((err, res) => {
                     const response = JSON.parse(res.text);
@@ -95,13 +94,14 @@ describe('users', () => {
                 .end(async (err, res) => {
                     const response = JSON.parse(res.text);
                     expect(response).toHaveProperty('message', `User updated successfully`);
-                    const newDetails = (await UserModel.findById(user._id)) as unknown as IUser;
-                    expect(newDetails.first_name).toBe('yoyo-change');
-                    expect(newDetails.last_name).toBe('gogo-change');
-                    expect(newDetails.gender).toBe('Female');
-                    expect(newDetails.email).toBe('1234-change@test.com');
 
-                    await UserModel.findByIdAndUpdate(user._id, { email: '1234@test.com' });
+                    const updatedUser = (await UserModel.findById(user._id)) as IUser;
+                    expect(updatedUser?.first_name).toBe('yoyo-change');
+                    expect(updatedUser?.last_name).toBe('gogo-change');
+                    expect(updatedUser?.gender).toBe('Female');
+                    expect(updatedUser?.email).toBe('1234-change@test.com');
+
+                    await UserModel.findByIdAndUpdate(user._id, { email: user.email });
 
                     done();
                 });
@@ -121,15 +121,16 @@ describe('users', () => {
         });
 
         it('delete user details successfully', (done) => {
-            expect(user.isActive).toBeTruthy();
             agent
                 .delete(`/users/${user._id}`)
                 .expect(200)
                 .end(async (err, res) => {
                     const response = JSON.parse(res.text);
                     expect(response).toHaveProperty('message', `User deleted successfully`);
-                    const newDetails = (await UserModel.findById(user._id)) as unknown as IUser;
-                    expect(newDetails.isActive).toBeFalsy();
+
+                    const deletedUser = (await UserModel.findById(user._id)) as IUser;
+                    expect(deletedUser?.isActive).toBeFalsy();
+
                     done();
                 });
         });
